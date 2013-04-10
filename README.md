@@ -1,4 +1,9 @@
-cpat-schoolwork
+CPaT Schoolwork
 ===============
 
-All my schoolwork for CPaT, spring 2013
+http://blogs.evergreen.edu/cpat
+
+Moodle:
+  https://moodle.evergreen.edu/course/view.php?id=3105
+Weekly Assignments:
+  http://blogs.evergreen.edu/cpat/weekly-assignments/
