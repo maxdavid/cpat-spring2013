@@ -1,4 +1,5 @@
-## Homework 1 
+Homework 1 
+==========
 #### due Fri April 12
 
 *The starred problems are upper division*
