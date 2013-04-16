@@ -32,8 +32,8 @@ What happens if you only use one attribute or the wrong two attributes?
 * Binary search tree -> k-D trees. This extends to decision trees
 ```
 suppose you want to be able to search based on either of two keys
-K<sup>1</sup> and K<sup>2</sup>.  The branching at even levels could
-be done with K<sup>1<sup> and odd levels with K<sup>2</sup>
+K¹ and K².  The branching at even levels could
+be done with K¹ and odd levels with K²
 ```
 * Ball trees (Chapter 4)
 
@@ -49,11 +49,13 @@ be done with K<sup>1<sup> and odd levels with K<sup>2</sup>
 * there are many measures that satisfy these properties, e.g. Euclidean distance, but this only works for numeric attributes.
 * Distance works for boolean attributes: the proportion of attributes that are the same.
 * Another approach is similarity using correlation. The correlation coefficient is given by:
+
 ```
-∑  (X - Xbar) * (Y - Ybar) 
- --------------------------
-    sd(X) * sd(Y)
+ ∑  (X - Xbar) * (Y - Ybar) 
+————————————————————————————
+       sd(X) * sd(Y)
 ```
+
 In general, there may be too many attributes. We may need to reduce the
 number. Principal components is a way to do this.
 
