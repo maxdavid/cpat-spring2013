@@ -3,11 +3,41 @@ cd "$(dirname "${BASH_SOURCE}")"
 set -e
 
 MOTD=MOTD.txt
+LOCALFILES=""
+OLDLS="/tmp/old_listing"
+NEWLS="/tmp/new_listing"
+DIFFLS=""
 
-function updateFiles() {
+function getNewFiles() {
 # Download and extract the tarball, excluding the files already here locally
   curl -#L https://github.com/pipecork/cpat-schoolwork/tarball/master \
-  | tar -xzv --strip-components 1 --show-transformed --skip-old-files --exclude={README.md}
+  | tar -xzv --strip-components 1 --show-transformed --keep-old-files --exclude=update.sh
+}
+
+function getListing() {
+  # Returns the  path of every file currently in the directly (sans the folders 
+  # themselves) as a single, comma-delimited string
+  LOCALFILES=$(find . -path ./.git -prune -o -name '*' \
+             | sed 's/^\.\///g' \
+             | sed "/\(^\.\)/ d" \
+              )
+}
+
+function commitUpdate() {
+# Commit the new files into their own commit
+  git commit -m"test commit" $1  
+}
+
+function updateFiles() {
+# Download
+  getListing
+  echo "$LOCALFILES" | sort > $OLDLS
+  getNewFiles
+  getListing
+  echo "$LOCALFILES" | sort > $NEWLS
+  DIFFLS=$(comm -13 $OLDLS $NEWLS)
+  rm $OLDLS 2> /dev/null
+  rm $NEWLS 2> /dev/null
 }
 
 function motd() {
@@ -28,6 +58,7 @@ else
   echo
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     updateFiles
+    # commitUpdate $DIFFLS
     motd $MOTD
   fi
 fi
