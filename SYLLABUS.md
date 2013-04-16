@@ -1,12 +1,13 @@
 CPaT Schedule & Info
 ====================
 
-### [Official Site](http://blogs.evergreen.edu/cpat)  —  [Moodle](https://moodle.evergreen.edu/course/view.php?id=3105)
+### [Official Site][cpat-blog] —  [Moodle][cpat-moodle]
 
 ## Week-by-Week
-* [Week 3](http://blogs.evergreen.edu/cpat/week-3-april-15/)
-* [Week 2](http://blogs.evergreen.edu/cpat/week-2-april-8/)
-* [Week 1](http://blogs.evergreen.edu/cpat/week-by-week/week-1-april-1/)
+#### [Current Week][cur-wk]
+* [Week 3][wk3]
+* [Week 2][wk2]
+* [Week 1][wk1]
 
 ## Schedule
 | Monday                | Tuesday               | Wednesday          | Thursday           |
@@ -17,7 +18,13 @@ CPaT Schedule & Info
 |                       |                       |                    |                    |
 | **1 ‒ 3**             | **1 ‒ 3**             |                    | **1 ‒ 3**          |
 | Seminar               | Project meetings      |                    | Affinity meetings  |
-| Sem2 E 2107-09/3107   | *TBA by faculty*      |                    |                    |
+| Sem2 E 2107-09/3107   | *[Check week][cur-wk]*|                    |                    |
+
+## Class pages
+* [Machine Learning / Data Mining][ml-page]
+* [Statistics and Modeling][st-page]
+* [Seminar][sem-page]
+* [Project][prj-page]
 
 ## Docs
 * [Prospectus](http://blogs.evergreen.edu/cpat/files/2013/03/CPaT-prospectus.pdf)
@@ -26,3 +33,18 @@ CPaT Schedule & Info
 * [Help Sessions Schedule](http://blogs.evergreen.edu/cpat/files/2013/04/CPaT-help.pdf)
 * [Student Covenant](http://blogs.evergreen.edu/cpat/files/2013/03/Student_Covenant.docx)
 
+<!--- Link Directory -->
+[cpat-blog]: http://blogs.evergreen.edu/cpat
+[cpat-moodle]: https://moodle.evergreen.edu/course/view.php?id=3105
+
+<!--- Week-by-Week -->
+  [cur-wk]: http://blogs.evergreen.edu/cpat/week-3-april-15/
+  [wk3]: http://blogs.evergreen.edu/cpat/week-3-april-15/
+  [wk2]: http://blogs.evergreen.edu/cpat/week-2-april-8/
+  [wk1]: http://blogs.evergreen.edu/cpat/week-by-week/week-1-april-1/
+
+<!--- Class pages -->
+  [ml-page]: http://blogs.evergreen.edu/cpat/stats/
+  [st-page]: http://blogs.evergreen.edu/cpat/stats-2/
+  [sem-page]: http://blogs.evergreen.edu/cpat/seminar/
+  [prj-page]: http://blogs.evergreen.edu/cpat/projects/
