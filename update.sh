@@ -7,7 +7,7 @@ MOTD=MOTD.txt
 function updateFiles() {
 # Download and extract the tarball, excluding the files already here locally
   curl -#L https://github.com/pipecork/cpat-schoolwork/tarball/master \
-  | tar -xzv --strip-components 1 --show-transformed --keep-old-files --exclude={README.md}
+  | tar -xzv --strip-components 1 --show-transformed --skip-old-files --exclude={README.md}
 }
 
 function motd() {
