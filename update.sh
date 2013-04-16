@@ -9,12 +9,12 @@ NEWLS="/tmp/new_listing"
 function getNewFiles() {
 # Download and extract the tarball, excluding the files already here locally
   curl -#L https://github.com/pipecork/cpat-schoolwork/tarball/master \
-  | tar -xzv --strip-components 1 --show-transformed --keep-old-files --exclude=update.sh
+  | tar -xzv --strip-components 1 --show-transformed --keep-old-files \
+  --exclude={update.sh,README.md}
 }
 
 function getListing() {
-  # Returns the  path of every file currently in the directly (sans the folders 
-  # themselves) as a single, comma-delimited string
+# Returns the directory listing of every file currently in the directory
   LOCALFILES=$(find . -path ./.git -prune -o -name '*' \
              | sed 's/^\.\///g' \
              | sed "/\(^\.\)/ d" \
@@ -22,7 +22,7 @@ function getListing() {
 }
 
 function commitUpdate() {
-# Commit the new files into their own commit
+# Add the new files into their own commit
   git add $1
   git commit -m"test commit" $1  
 }
@@ -31,14 +31,14 @@ function updateFiles() {
 # Compare the file listing before and after downloading new files to see if a
 # new commit of updates is needed
   getListing
-  echo "$LOCALFILES" | sort > $OLDLS
+  echo "$LOCALFILES" | sort > $OLDLS  # Store the current ls in a file
   getNewFiles
   getListing
-  echo "$LOCALFILES" | sort > $NEWLS
+  echo "$LOCALFILES" | sort > $NEWLS  # Store the 'new' ls in a file
   DIFFLS=$(comm -13 $OLDLS $NEWLS)
   rm $OLDLS $NEWLS 2> /dev/null
-  if [ ! -z $DIFFLS ]; then
-    commitUpdate "$DIFFLS"
+  if [ ! -z $DIFFLS ]; then  # If we added any new files...
+    commitUpdate "$DIFFLS"   # Then make a commit for them
   fi
   unset LOCALFILES DIFFLS
 }
