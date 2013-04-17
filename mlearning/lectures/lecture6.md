@@ -47,20 +47,21 @@ Lecture 6
 Distance metrics
 
 * Defining the distance between two instances. This is important for clustering and for classification algorithms. There are many possibilities. They share a few basic abstract properties. Not all distance measures are useful for a given task.
-
-  1. distances are ≥ 0
-  2. distance is 0 if and only if the two instances are identical
-  3. symmetry
-  4. triangle inequality: the distance from a to b + distance from b to c ≥ distance from a to c. 
+ 1. distances are ≥ 0
+ 2. distance is 0 if and only if the two instances are identical
+ 3. symmetry
+ 4. triangle inequality: the distance from a to b + distance from b to c ≥ distance from a to c. 
 * Show that Hamming distance is a distance.
 * there are many measures that satisfy these properties, e.g. Euclidean distance, but this only works for numeric attributes.
 
 * k-nearest neighbors classification uses distance, but you need to choose k.
-* Another approach is similarity using correlation. The correlation coefficient is given by
+* Another approach is similarity using correlation. The correlation coefficient is given by:
 
 ```
-<insert equation here>
+ ∑  (X - Xbar) * (Y - Ybar) 
+————————————————————————————
+       sd(X) * sd(Y)
 ```
 
-In general, there may be too many attributes. We may need to reduce the number. Principal components is a way to do this. 
+* In general, there may be too many attributes. We may need to reduce the number. Principal components is a way to do this. 
 
