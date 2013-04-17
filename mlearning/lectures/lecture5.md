@@ -1,11 +1,11 @@
 Lecture 5
 =========
-Readings
+## Readings
 
 * in Witten: Chapter 3
 * Extra: linear algebra
 
-##Additional resources
+## Additional resources
 
 * Data Mining: Concepts and Techniques by Jiawei Han, Micheline Kamber. Jian Pei
 * Weka Manual. P.34, you can output a jpeg, png or eps file.
