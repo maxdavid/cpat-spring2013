@@ -16,6 +16,7 @@ Lecture 6
 * A filter can be almost any function that transforms the input
 * There are different types of filters: supervised and unsupervised, attribute filters, instance filters
 * Examples:
+
 ```
   StratifiedRemoveFolds (supervised, instance) -- why is this supervised?
   SpreadSubSample (supervised, instance)
