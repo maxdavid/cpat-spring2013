@@ -17,13 +17,14 @@ Lecture 5
 * Can a program create a new concept or can it only represent concepts that you have programmed or presented as data?
 * What is a linear model? Need numeric data. Look at P. 63
 * there is a straight line that separates Iris setosa and versicolor. One such line is represented by a linear equation:
+
 ```
 2 - 0.5*Petal_Length - 0.8*Petal_Width = 0
 ```
 
 There are many possible lines.
-On one side of the line 2 – 0.5*Petal_Length – 0.8*Petal_Width > 0,
-on the other side < 0
+On one side of the line ```2 – 0.5 * Petal_Length – 0.8 * Petal_Width > 0```,
+on the other side ```< 0```
 What happens if you only use one attribute or the wrong two attributes?
 
 * What is a decision tree? There are internal nodes and leaf nodes.
