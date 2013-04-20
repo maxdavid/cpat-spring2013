@@ -16,8 +16,8 @@ function getNewFiles() {
 function getListing() {
 # Returns the directory listing of every file currently in the directory
   LOCALFILES=$(find . -path ./.git -prune -o -name '*' \
-             | sed 's/^\.\///g' \
-             | sed "/\(^\.\)/ d" \
+              | sed 's/^\.\///g' \
+              | sed "/\(^\.\)/ d" \
               )
 }
 
@@ -25,6 +25,16 @@ function commitUpdate() {
 # Add the new files into their own commit
   git add $1
   git commit -m"test commit" $1  
+}
+
+function rmTODOs() {
+# Removes TODO.md files in every class directory
+  TODOPATHS=$(find . -path ./.git -prune -o -name '*' \
+             | sed 's/^\.\///g' \
+             | sed "/\(^\.\)/ d" \
+             | grep -i "TODO" \
+             )
+  rm $TODOPATHS 2> /dev/null
 }
 
 function updateFiles() {
@@ -52,12 +62,14 @@ function motd() {
 
 # Main
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
+  rmTODOs
   updateFiles
   motd $MOTD
 else
   read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
   echo
   if [[ $REPLY =~ ^[Yy]$ ]]; then
+    rmTODOs
     updateFiles
     motd $MOTD
   fi
