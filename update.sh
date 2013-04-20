@@ -22,9 +22,13 @@ function getListing() {
 }
 
 function commitUpdate() {
-# Add the new files into their own commit
-  git add $1
-  git commit -m"test commit" $1  
+# Add the new files into their own git commit. 
+# Both variables should be passed in quotes:
+# $1 -- Commit message
+# $2 -- List of files to commit 
+    # Each file MUST be separated by a space in a single string in quotes
+  git add $2
+  git commit -m"$1" $2 
 }
 
 function rmTODOs() {
@@ -47,8 +51,9 @@ function updateFiles() {
   echo "$LOCALFILES" | sort > $NEWLS  # Store the 'new' ls in a file
   DIFFLS=$(comm -13 $OLDLS $NEWLS)
   rm $OLDLS $NEWLS 2> /dev/null
-  if [ ! -z $DIFFLS ]; then  # If we added any new files...
-    commitUpdate "$DIFFLS"   # Then make a commit for them
+  echo "$DIFFLS"
+  if [ ! -z "$DIFFLS" ]; then  # If we added any new files...
+    commitUpdate "Updated files $(date '+%m/%d/%y')" "$DIFFLS"  # Then make a commit for them
   fi
   unset LOCALFILES DIFFLS
 }
