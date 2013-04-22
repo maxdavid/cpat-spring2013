@@ -14,11 +14,11 @@ function getNewFiles() {
 }
 
 function getListing() {
-# Sets '$LOCALFILES' as a single, space delimited string of the directory 
+# Sets '$DIRLISTING' as a single, space delimited string of the directory 
 # listing of everything, recursively, currently in the directory.
 # If passed with an argument, then it returns only the listings with filenames  
 # that contain the given string (case-insensitive)
-  LOCALFILES=$(find . -path ./.git -prune -o -name '*' \
+  DIRLISTING=$(find . -path ./.git -prune -o -name '*' \
               | sed 's/^\.\///g' \
               | sed "/\(^\.\)/ d" \
               | grep --ignore-case "$1" \
@@ -38,25 +38,25 @@ function commitUpdate() {
 function rmTODOs() {
 # Removes TODO.md files in every class directory
   getListing "TODO"
-  rm $LOCALFILES 2> /dev/null
-  unset LOCALFILES
+  rm $DIRLISTING 2> /dev/null
+  unset DIRLISTING
 }
 
 function updateFiles() {
 # Compare the file listing before and after downloading new files to see if a
 # new commit of updates is needed
   getListing
-  echo "$LOCALFILES" | sort > $OLDLS  # Store the current ls in a file
+  echo "$DIRLISTING" | sort > $OLDLS  # Store the current ls in a file
   getNewFiles
   getListing
-  echo "$LOCALFILES" | sort > $NEWLS  # Store the 'new' ls in a file
+  echo "$DIRLISTING" | sort > $NEWLS  # Store the 'new' ls in a file
   DIFFLS=$(comm -13 $OLDLS $NEWLS)
   rm $OLDLS $NEWLS 2> /dev/null
   echo "$DIFFLS"
   if [ ! -z "$DIFFLS" ]; then  # If we added any new files...
     commitUpdate "Updated files $(date '+%m/%d/%y')" "$DIFFLS"  # Then make a commit for them
   fi
-  unset LOCALFILES DIFFLS
+  unset DIRLISTING DIFFLS
 }
 
 function motd() {
