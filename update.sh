@@ -14,10 +14,14 @@ function getNewFiles() {
 }
 
 function getListing() {
-# Returns the directory listing of every file currently in the directory
+# Sets '$LOCALFILES' as a single, space delimited string of the directory 
+# listing of everything, recursively, currently in the directory.
+# If passed with an argument, then it returns only the listings with filenames  
+# that contain the given string (case-insensitive)
   LOCALFILES=$(find . -path ./.git -prune -o -name '*' \
               | sed 's/^\.\///g' \
               | sed "/\(^\.\)/ d" \
+              | grep --ignore-case "$1" \
               )
 }
 
@@ -33,12 +37,9 @@ function commitUpdate() {
 
 function rmTODOs() {
 # Removes TODO.md files in every class directory
-  TODOPATHS=$(find . -path ./.git -prune -o -name '*' \
-             | sed 's/^\.\///g' \
-             | sed "/\(^\.\)/ d" \
-             | grep -i "TODO" \
-             )
-  rm $TODOPATHS 2> /dev/null
+  getListing "TODO"
+  rm $LOCALFILES 2> /dev/null
+  unset LOCALFILES
 }
 
 function updateFiles() {
