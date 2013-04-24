@@ -2,6 +2,7 @@
 cd "$(dirname "${BASH_SOURCE}")"
 set -e
 
+UPSTREAMGIT=git@github.com:pipecork/cpat-spring2013.git
 UPSTREAMTARBALL=https://github.com/pipecork/cpat-spring2013/tarball/master
 MOTDRAWURL=https://raw.github.com/pipecork/cpat-spring2013/master/MOTD.txt
 MOTD=MOTD.txt
@@ -88,11 +89,7 @@ function updateFiles() {
   echo "$DIRLISTING" | sort > $NEWLS  # Store the 'new' ls in a file
   DIFFLS=$(comm -13 $OLDLS $NEWLS)
   rm $OLDLS $NEWLS 2> /dev/null
-  echo "$DIFFLS"
-  if [ ! -z "$DIFFLS" ]; then  # If we added any new files...
-    commitUpdate "Updated files $(date '+%m/%d/%y')" "$DIFFLS"  # Then make a commit for them
-  fi
-  unset DIRLISTING DIFFLS
+  unset DIRLISTING
 }
 
 function motd() {
@@ -108,13 +105,14 @@ function DoIt() {
   rm $OVERWRITES 2> /dev/null
   updateFiles
   motd $MOTD
+  commitUpdate "Updated files $(date '+%m/%d/%y')" "$DIFFLS"  # Make a commit for them
 }
 
 
 # Main
 if [ "$1" == "--merge" -o "$1" == "-m" ]; then  # If you're no stranger to merge conflicts
   if ! git remote -v | grep -q "upstream" ; then
-    git remote add upstream git@github.com:pipecork/cpat-spring2013.git
+    git remote add upstream $UPSTREAMGIT
   fi
   git fetch upstream
   git checkout master
@@ -132,5 +130,5 @@ else
     DoIt
   fi
 fi
-unset updateFiles MOTD OLDLS NEWLS DIFFLS
+unset UPSTREAMGIT UPSTREAMTARBALL MOTDRAWURL MOTD OLDLS NEWLS DIRLISTING OVERWRITES DIFFLS
 
