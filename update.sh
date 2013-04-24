@@ -67,10 +67,17 @@ function motd() {
 
 
 # Main
-if [ "$1" == "--force" -o "$1" == "-f" ]; then
-  rmTODOs
-  updateFiles
-  motd $MOTD
+if [ "$1" == "--merge" -o "$1" == "-m" ]; then
+  if ! git remote -v | grep -q "upstream" ; then
+    echo "not there!"
+    git remote add upstream git@github.com:pipecork/cpat-spring2013.git
+    exit
+  fi
+  echo "there!"
+  exit
+  git fetch upstream
+  git checkout master
+  git merge upstream/master
 else
   read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
   echo
