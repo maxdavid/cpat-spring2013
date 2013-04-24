@@ -36,8 +36,12 @@ function commitUpdate() {
 }
 
 function rmTODOs() {
-# Removes TODO.md files in every class directory
-  getListing "TODO"
+# Removes TODO.md files in every class directory. 
+# This excludes any in the root directory.
+  getListing "TODO.md"
+  DIRLISTING=$(echo "$DIRLISTING" \
+              | sed '/^TODO.md$/ d'
+              )
   rm $DIRLISTING 2> /dev/null
   unset DIRLISTING
 }
