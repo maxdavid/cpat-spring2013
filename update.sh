@@ -35,13 +35,13 @@ function commitUpdate() {
   git commit -m"$1" $2 
 }
 
-function rmTODOs() {
+function rmByFileName() {
 # Removes TODO.md files in every class directory. 
 # This excludes any in the root directory.
-  getListing "TODO.md"
+  getListing "$1"
   DIRLISTING=$(echo "$DIRLISTING" \
-              | sed '/^TODO.md$/ d'
-              )
+              | sed "/^$1$/ d" 
+              )   # Remove listing if in the root dir
   rm $DIRLISTING 2> /dev/null
   unset DIRLISTING
 }
@@ -82,7 +82,7 @@ else
   read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
   echo
   if [[ $REPLY =~ ^[Yy]$ ]]; then
-    rmTODOs
+    rmByFileName TODO.md
     updateFiles
     motd $MOTD
   fi
