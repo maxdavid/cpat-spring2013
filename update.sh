@@ -69,12 +69,8 @@ function motd() {
 # Main
 if [ "$1" == "--merge" -o "$1" == "-m" ]; then
   if ! git remote -v | grep -q "upstream" ; then
-    echo "not there!"
     git remote add upstream git@github.com:pipecork/cpat-spring2013.git
-    exit
   fi
-  echo "there!"
-  exit
   git fetch upstream
   git checkout master
   git merge upstream/master
