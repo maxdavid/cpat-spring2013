@@ -16,13 +16,39 @@ function getNewFiles() {
 function getListing() {
 # Sets '$DIRLISTING' as a single, space delimited string of the directory 
 # listing of everything, recursively, currently in the directory.
+#
 # If passed with an argument, then it returns only the listings with filenames  
 # that contain the given string (case-insensitive)
+#   USAGE: getListing [FILENAME] [OPTION(S)]
+#
+#   OPTIONS:
+#     --exclude-root / -er:  
+#         Excludes files in the root dir (only works if a file name is given)
+# TODO
+# arg-checking should really be a loop
+# -er doesn't work if a filename isn't given
+
+  if [ "$1" == "--exclude-root" -o "$1" == "-er" ]; then
+    EXCLUDINGROOT=0
+    FILENAME=$2
+  elif [ "$2" == "--exclude-root" -o "$2" == "-er" ]; then
+    EXCLUDINGROOT=0
+    FILENAME=$1
+  else
+    FILENAME=$1
+  fi 
+  # Get the listing, grep if file was given
   DIRLISTING=$(find . -path ./.git -prune -o -name '*' \
               | sed 's/^\.\///g' \
               | sed "/\(^\.\)/ d" \
-              | grep --ignore-case "$1" \
+              | grep --ignore-case "$FILENAME" \
               )
+  if [ $EXCLUDINGROOT ]; then
+  # Remove listing if in the root dir
+    DIRLISTING=$(echo "$DIRLISTING" \
+                | sed "/^$FILENAME$/ d" )
+  fi
+  unset FILENAME EXCLUDINGROOT
 }
 
 function commitUpdate() {
@@ -33,17 +59,6 @@ function commitUpdate() {
     # Each file MUST be separated by a space in a single string in quotes
   git add $2
   git commit -m"$1" $2 
-}
-
-function rmByFileName() {
-# Removes TODO.md files in every class directory. 
-# This excludes any in the root directory.
-  getListing "$1"
-  DIRLISTING=$(echo "$DIRLISTING" \
-              | sed "/^$1$/ d" 
-              )   # Remove listing if in the root dir
-  rm $DIRLISTING 2> /dev/null
-  unset DIRLISTING
 }
 
 function updateFiles() {
