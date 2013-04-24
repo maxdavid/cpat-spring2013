@@ -21,13 +21,30 @@ But really? It was made for you to fork.
 Fork this repo to your account and you'll still get updates on due assignments. Handouts for labs or seminar will automatically download too. AND you can use it as your own, personal place to store files. Homework, seminar papers, labs. Write it all in your favorite editor and use git to access it from anywhere. It's all here.
 
 ### If you can already git
-Fork it, clone it, and run the update script to start:
+Fork it, clone it. Add this repo as the remote upstream to your fork:
 
 ```bash
-./update.sh
+git remote add upstream git@github.com:pipecork/cpat-spring2013.git
 ```
 
-Run the update script frequently. New files will be added and existing files won't be overwritten (except for 'TODO.md' not in the root directory). See the section [**update.sh**](#update.sh) below for details.
+Now, whenever you want to sync, you just:
+
+1. **Fetch** the remote changes to your local upstream branch
+```
+git fetch upstream
+```
+
+2. and **Merge** the new information with the old:
+```
+git checkout master
+git merge upstream/master
+```
+
+Make sure to do steps 1 & 2 frequently, at the very least once a week. You can also run ```update.sh``` with the ```--merge/-m``` flag to save yourself the typing of steps 1 & 2.
+
+Now, every once and a while you might run into merge conflicts. Especially if you're making personal commits in persistent files, like using TODO.md as a checklist. But if you're even barely familiar with resolving merge conflicts then you'll be fine. It's just some school assignments.
+
+If you REALLY don't want to deal with merging or anything, then you can use [**update.sh**](#update.sh) and it'll cradle you into easy-ville. Just make sure to read the [section below](#update.sh).
 
 ### If you don't even know what git is
 That's cool! But you should really learn. I'll try to walk you through this process as best I can, but if you're stuck see the section [**Learning Git**](#learning-git) below for more info. Or [ask me](#contact).
