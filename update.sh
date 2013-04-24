@@ -2,13 +2,15 @@
 cd "$(dirname "${BASH_SOURCE}")"
 set -e
 
+UPSTREAMTARBALL=https://github.com/pipecork/cpat-spring2013/tarball/master
+MOTDRAWURL=https://raw.github.com/pipecork/cpat-spring2013/master/MOTD.txt
 MOTD=MOTD.txt
 OLDLS="/tmp/old_listing"
 NEWLS="/tmp/new_listing"
 
 function getNewFiles() {
 # Download and extract the tarball, excluding the files already here locally
-  curl -#L https://github.com/pipecork/cpat-schoolwork/tarball/master \
+  curl -#L $UPSTREAMTARBALL \
   | tar -xzv --strip-components 1 --show-transformed --keep-old-files \
   --exclude={update.sh,README.md}
 }
@@ -51,14 +53,29 @@ function getListing() {
   unset FILENAME EXCLUDINGROOT
 }
 
+function getOverwrites() {
+# Get the list of files which will be overwritten by the script.
+  getListing --exclude-root TODO.md
+  if [ ! -e $MOTD ]; then
+    wget --output-document=$MOTD $MOTDRAWURL
+  fi
+  OVERWRITES=$(cat "$MOTD" | sed '/^#####/,$ d' \
+              | grep ">>>>>OVERWRITE" "$MOTD" \
+              | sed 's/^>>>>>OVERWRITE //g' \
+              | sed 's/\s\+/\n/g' \
+              )
+  OVERWRITES="$DIRLISTING $OVERWRITES"
+  unset DIRLISTING
+}
+
 function commitUpdate() {
 # Add the new files into their own git commit. 
 # Both variables should be passed in quotes:
 # $1 -- Commit message
 # $2 -- List of files to commit 
     # Each file MUST be separated by a space in a single string in quotes
-  git add $2
-  git commit -m"$1" $2 
+  git add $2 $OVERWRITES
+  git commit -m"$1" $2 $OVERWRITES
 }
 
 function updateFiles() {
@@ -81,29 +98,14 @@ function updateFiles() {
 function motd() {
 # Print the most recent motd ($1), then remove the file
   cat $1 | sed '/^#####/,$ d' | sed '/^>>>>>OVERWRITE/ d'
-  #rm $1 2> /dev/null
+  rm $1 2> /dev/null
 }
 
-function getOverwrites() {
-# Get the list of files which will be overwritten by the script.
-  getListing --exclude-root TODO.md
-  if [ ! -e $MOTD ]; then
-    wget --output-document=$MOTD https://raw.github.com/pipecork/cpat-spring2013/master/MOTD.txt
-  fi
-  OVERWRITES=$(cat "$MOTD" | sed '/^#####/,$ d' \
-              | grep ">>>>>OVERWRITE" "$MOTD" \
-              | sed 's/^>>>>>OVERWRITE //g' \
-              | sed 's/\s\+/\n/g' \
-              )
-  OVERWRITES="$DIRLISTING $OVERWRITES"
-  unset DIRLISTING
-}
+
 
 function DoIt() {
 # Just do it. Runs everything that the script needs to do
-  getListing --exclude-root TODO.md
-  rm $DIRLISTING 2> /dev/null
-  unset DIRLISTING
+  rm $OVERWRITES 2> /dev/null
   updateFiles
   motd $MOTD
 }
