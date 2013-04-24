@@ -80,26 +80,54 @@ function updateFiles() {
 
 function motd() {
 # Print the most recent motd ($1), then remove the file
-  cat $1 | sed '/^#####/,$ d'
+  cat $1 | sed '/^#####/,$ d' | sed '/^>>>>>OVERWRITE/ d'
   #rm $1 2> /dev/null
+}
+
+function getOverwrites() {
+# Get the list of files which will be overwritten by the script.
+  getListing --exclude-root TODO.md
+  if [ ! -e $MOTD ]; then
+    wget --output-document=$MOTD https://raw.github.com/pipecork/cpat-spring2013/master/MOTD.txt
+  fi
+  OVERWRITES=$(cat "$MOTD" | sed '/^#####/,$ d' \
+              | grep ">>>>>OVERWRITE" "$MOTD" \
+              | sed 's/^>>>>>OVERWRITE //g' \
+              | sed 's/\s\+/\n/g' \
+              )
+  OVERWRITES="$DIRLISTING $OVERWRITES"
+  unset DIRLISTING
+}
+
+function DoIt() {
+# Just do it. Runs everything that the script needs to do
+  getListing --exclude-root TODO.md
+  rm $DIRLISTING 2> /dev/null
+  unset DIRLISTING
+  updateFiles
+  motd $MOTD
 }
 
 
 # Main
-if [ "$1" == "--merge" -o "$1" == "-m" ]; then
+if [ "$1" == "--merge" -o "$1" == "-m" ]; then  # If you're no stranger to merge conflicts
   if ! git remote -v | grep -q "upstream" ; then
     git remote add upstream git@github.com:pipecork/cpat-spring2013.git
   fi
   git fetch upstream
   git checkout master
   git merge upstream/master
+elif [ "$1" == "--force" -o "$1" == "-f" ]; then  # If you live on the edge
+  DoIt
 else
-  read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
+  getOverwrites
+  echo "The following files will be overwritten:"
+  echo $OVERWRITES | sed 's/\s\+/\n/g'
+  echo
+  read -p "Are you sure? (y/n) " -n 1
   echo
   if [[ $REPLY =~ ^[Yy]$ ]]; then
-    rmByFileName TODO.md
-    updateFiles
-    motd $MOTD
+    DoIt
   fi
 fi
 unset updateFiles MOTD OLDLS NEWLS DIFFLS
