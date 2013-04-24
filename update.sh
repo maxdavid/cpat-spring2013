@@ -58,7 +58,7 @@ function getOverwrites() {
 # Get the list of files which will be overwritten by the script.
   getListing --exclude-root TODO.md
   if [ ! -e $MOTD ]; then
-    wget --output-document=$MOTD $MOTDRAWURL
+    wget --output-document=$MOTD $MOTDRAWURL 1> /dev/null
   fi
   OVERWRITES=$(cat "$MOTD" | sed '/^#####/,$ d' \
               | grep ">>>>>OVERWRITE" "$MOTD" \
@@ -128,6 +128,8 @@ else
   echo
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     DoIt
+  else
+    rm $MOTD 2> /dev/null
   fi
 fi
 unset UPSTREAMGIT UPSTREAMTARBALL MOTDRAWURL MOTD OLDLS NEWLS DIRLISTING OVERWRITES DIFFLS
