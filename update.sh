@@ -58,7 +58,7 @@ function getOverwrites() {
 # Get the list of files which will be overwritten by the script.
   getListing --exclude-root TODO.md
   if [ ! -e $MOTD ]; then
-    wget --output-document=$MOTD $MOTDRAWURL 1> /dev/null
+    wget --output-document=$MOTD $MOTDRAWURL &> /dev/null
   fi
   OVERWRITES=$(cat "$MOTD" | sed '/^#####/,$ d' \
               | grep ">>>>>OVERWRITE" "$MOTD" \
@@ -75,8 +75,16 @@ function commitUpdate() {
 # $1 -- Commit message
 # $2 -- List of files to commit 
     # Each file MUST be separated by a space in a single string in quotes
-  git add $2 $OVERWRITES
-  git commit -m"$1" $2 $OVERWRITES
+  CMESSAGE=$1
+  NEWFILES=$2
+
+  if [ -e $MOTD ]; then
+    git rm $MOTD
+    rm $MOTD
+  fi
+  git add $NEWFILES $OVERWRITES
+  git commit -m"$CMESSAGE" $NEWFILES $OVERWRITES
+  unset CMESSAGE NEWFILES
 }
 
 function updateFiles() {
