@@ -20,15 +20,16 @@ information of a set. The first part of this workshop is using the formula.
 You may use a calculator or write a program in the language of your choice.
 I wrote a program info.py and put it in the Handouts/data mining folder.
 
-Referring to the weather data set in Table 1.2 on P.10,
- a. What is the information in the original data set with respect to play/no play, i.e.
+    Referring to the weather data set in Table 1.2 on P.10,
+
+    a. What is the information in the original data set with respect to play/no play, i.e.
 the set containing 9 yes’s and 5 no’s? Show your work. Give the general formula, the formula with numbers substituted, and the numeric value.
 
- b. What is the average information after dividing that set into three subsets: ```{yes, yes, no, no, no}, {yes, yes, yes, yes}, {yes, yes, yes, no, no}```? Show your work. Give the general formula, the formula with numbers substituted, and the numeric value.
+    b. What is the average information after dividing that set into three subsets: ```{yes, yes, no, no, no}, {yes, yes, yes, yes}, {yes, yes, yes, no, no}```? Show your work. Give the general formula, the formula with numbers substituted, and the numeric value.
 
- c. Compute the information gain and gain ratio.
+    c. Compute the information gain and gain ratio.
 
- d. Compute the gain and gain ratio for humidity.
+    d. Compute the gain and gain ratio for humidity.
 
 2. Apply the same approach to the contact lens problem, but now there are three
 categories. There are four attributes that could be the root of the decision
