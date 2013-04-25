@@ -10,12 +10,11 @@ due Fri April 26
  * If a new sample is measured at x = 4.7, y = 1.7, with k set to 5, how would it be classified? What are the approximate coordinates of the 5 nearest neighbors?
 
 4. Given the following rule set with ‘exceptions’, convert it to an equivalent rule set of independent rules with only ‘then’ clauses.
-
 ```
 If petal length ≥ 2.45 and petal length < 4.45 then Iris versicolor except
-if petal width < 1 then Iris setosa.
+If petal width < 1 then Iris setosa.
 If petal width ≥ 4.45 then Iris viginica except
-if petal width < 1.7 then Iris versicolor
+If petal width < 1.7 then Iris versicolor
 ```
 
 5. Given 150 unique instances in the iris data set, use Weka to construct 10 folds.
