@@ -1,6 +1,6 @@
 #!/bin/bash
 cd "$(dirname "${BASH_SOURCE}")"
-set -e
+#set -e
 
 UPSTREAMGIT=git@github.com:pipecork/cpat-spring2013.git
 UPSTREAMTARBALL=https://github.com/pipecork/cpat-spring2013/tarball/master
