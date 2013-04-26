@@ -16,6 +16,7 @@ Seminar
 
 ## Week 4
 #### [Data Near Here][dnh]
+[Submission Forum][moo4]
 
 ##### Prompts
 * Write a short analysis of the assigned paper.  See [Analysis of a Scientific Paper][anacon] for direction!
@@ -23,13 +24,15 @@ Seminar
 
 ## Week 3
 #### The Lady-Tasting Tea (first half)
+[Submission Forum][moo3]
 
 ##### Prompts
 * David Salsburg in The Lady Tasting Tea paints a very personal picture of the development of a new scientific discipline (statistics!).  In particular, you are presented with a kind of feud between Fisher and Pearson, a feud that was only partially based on personality.  As best you can, describe the fundamental differences in the approaches to statistics taken by these two key figures in the history of statistics.
 * The Lady Tasting Tea describes in some detail how certain statistical innovations arose from real world problems (e.g., crop rotation, beer mash fermentation for Guiness, etc.).  Pick one of the several  problems in the book, describe it, and then tell the statistical story related to that problem.    What was it about the problem that required or inspired innovation?   If you can address or speculate, how did the particular innovation lead to a more general idea that was more widely applicable?
 
-## Week 4
+## Week 2
 #### Thinking in Systems
+[Submission Forum][moo3]
 
 ##### Prompt
 *  The author (of Thinking in Systems) contrasts systems thinking with science, logic and reductionism (in Ch. 1, p 4 and elsewhere) .  She goes on to claim that the methodologies presented in the book (essentially building and observing the dynamics of stock/flow models), while “not necessarily better” than reductionism allows us to “reclaim our intuition” in ways that could lead to better understanding of the natural world, and policy decisions  (p. 6, for example).  What evidence does she give for this cliam?  How can a model, which is itself a formal system, lend itself to holistic thinking?
@@ -45,3 +48,9 @@ Seminar
   [dnh]: http://blogs.evergreen.edu/cpat/files/2013/04/CiSE_Megler_Maier.pdf
   [anacon]: http://blogs.evergreen.edu/cpat/analysis-of-scientific-paper/
   [anaexp]: http://blogs.evergreen.edu/cpat/presenting-cs-research-to-a-general-audience/
+  
+<!--- Moodle Submission Forums --
+  [moo2]: https://moodle.evergreen.edu/mod/forum/view.php?id=84904
+  [moo3]: https://moodle.evergreen.edu/mod/forum/view.php?id=88253
+  [moo4]: https://moodle.evergreen.edu/mod/forum/view.php?id=88291
+  [moo5]: wat
