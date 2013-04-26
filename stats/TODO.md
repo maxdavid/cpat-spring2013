@@ -3,10 +3,18 @@ TODO
 #### [Official Stats Page][stats-page] —  [Moodle][cpat-moodle]
 
 ***
+## Week 5
+**Stats in-class midterm** (on moodle). You must be in lab to get the password to take this quiz, not at home, but you can use your own laptop.  No notes, no books.  Remember you can review (and practice) all prior quizzes by retaking them as many times as you like.
 
+**Stats take-home midterm**, available at noon on Wednesday. Due Monday.
+
+***
+
+## Summary
 | week | reading                 | lectures                | excerpt
 |------|-------------------------|-------------------------|---------------------------------|
-| **4**|see excerpt              |                         | By Tuesday, Read Bestiary of Experimental & Sampling Designs; Intro to ANOVA, (Ch. 7).  See Lecture notes for reading priorities.
+| **5**|
+| 4    |see excerpt              |                         | By Tuesday, Read Bestiary of Experimental & Sampling Designs; Intro to ANOVA, (Ch. 7).  See Lecture notes for reading priorities.
 | 3    |Chapters 4,5(Mon),6(Wed) |[L4][st-l4] [L5][st-l5]  | By Tuesday, read Ch. 4,5.  Quiz in Lab at 9:30.  By Wednesday, read Ch. 6.
 | 2    |Chapters 3               |[L2][st-l2] [L3][st-l3]  | 
 | 1    |Chapter 1,2(Mon)         |[L1][st-l1]              | Tuesday prior to 9:30 Lab:  read Ch. 1-2 Thinking in Systems (if you really can’t get the book yet (try the ebook through the TESC library!), browse the [STELLA User’s Manual][manstella] and try Barry Richmond’s [Systems Dynamics/Systems Thinking][richmond-sdst]
