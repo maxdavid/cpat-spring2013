@@ -1,5 +1,3 @@
-> YO DON'T USE THIS REPO JUST YET k thx
-
 CPaT Schoolwork
 ===============
 #### [Official Site][cpat-blog] —  [Moodle][cpat-moodle]
@@ -44,7 +42,7 @@ Make sure to do steps 1 & 2 frequently, at the very least once a week. You can a
 
 Now, every once and a while you might run into merge conflicts. Especially if you're making personal commits in persistent files, like using TODO.md as a checklist. But if you're even barely familiar with resolving merge conflicts then you'll be fine. It's just some school assignments.
 
-If you REALLY don't want to deal with merging or anything, then you can use [**update.sh**](#update.sh) and it'll cradle you into easy-ville. Just make sure to read the [section below](#update.sh).
+If you REALLY don't want to deal with merging or anything, then you can use [**update.sh**](#updatesh) and it'll cradle you into easy-ville. Just make sure to read the [section below](#updatesh).
 
 ### If you don't even know what git is
 That's cool! But you should really learn. I'll try to walk you through this process as best I can, but if you're stuck see the section [**Learning Git**](#learning-git) below for more info. Or [ask me](#contact).
@@ -58,7 +56,7 @@ That's cool! But you should really learn. I'll try to walk you through this proc
  * If you're on ada (or some other linux machine) you'd run: ```git clone git@github.com:<username>/<repo-name>.git ```
   * Replace ```<username>``` with your GitHub username, and ```<repo-name>``` with whatever you named your repo.
 
-4. Run the update script. See [update.sh](#update.sh) below for more details.
+4. Run the update script. See [update.sh](#updatesh) below for more details.
  * Enter ```./update.sh``` into the shell.
  * Do this frequently (at least once a week) to not miss anything.
 
@@ -89,7 +87,17 @@ Understandable. While I think it'd be rad to publish your homework with an MIT L
  * While git will still save your commit history and files, you'll be without backups if this repo goes splat.
 
 ## update.sh
-waaaat
+If you're a wimp who doesn't want to learn git (are you *really* that much of a wimp?) there's a bash script that will do the book-keeping for you. One disadvantage is that the TODO.md within each class folder gets overwritten each time (if you keep a TODO, name it something other than 'TODO.md' or keep it in the root directory). Another disadvantage is that you're a wimp who won't learn how to use git. 
+
+### Usage
+On the command line of a linux or (maybe) Mac computer, run
+```
+./update.sh
+```
+
+It will tell what's getting overwritten (if anything) and ask you to confirm. You can run it with ```--force``` or ```-f``` to bypass the confirmation stage.
+
+If you're on a Windows, sorry.
 
 ## Collaborate
 You want to help out? **Great.** The class information here is updated by hand, and takes a bit of work. The pages seem to be updated at random, so it's difficult to keep this constantly up-to-date.
