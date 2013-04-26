@@ -89,7 +89,17 @@ Understandable. While I think it'd be rad to publish your homework with an MIT L
  * While git will still save your commit history and files, you'll be without backups if this repo goes splat.
 
 ## update.sh
-waaaat
+If you're a wimp who doesn't want to learn git (are you *really* that much of a wimp?) there's a bash script that will do the book-keeping for you. One disadvantage is that the TODO.md within each class folder gets overwritten each time (if you keep a TODO, name it something other than 'TODO.md' or keep it in the root directory). Another disadvantage is that you're a wimp who won't learn how to use git. 
+
+### Usage
+On the command line of a linux or (maybe) Mac computer, run
+```
+./update.sh
+```
+
+It will tell what's getting overwritten (if anything) and ask you to confirm. You can run it with ```--force``` or ```-f``` to bypass the confirmation stage.
+
+If you're on a Windows, sorry.
 
 ## Collaborate
 You want to help out? **Great.** The class information here is updated by hand, and takes a bit of work. The pages seem to be updated at random, so it's difficult to keep this constantly up-to-date.
