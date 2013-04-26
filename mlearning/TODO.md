@@ -1,10 +1,23 @@
 TODO
 ====
+#### [Official Machine Learning Page][ml-page] —  [Moodle][cpat-moodle]
 
-### [Machine Learning](http://blogs.evergreen.edu/cpat/stats/)
+***
+
+## Week 5
+**ML in-class midterm** (on moodle).
+You must be in lab to get the password to take this quiz, not at home, but you can use your own laptop.  Remember you can review (and practice) all prior quizzes by retaking them as many times as you like.
+
+Turn in your lab report from today by midnight to fileshare.
+
+***
+
+
+#### Summary of work
 | week | reading                 | lectures                | labs            |  homeworks
 |------|-------------------------|-------------------------|-----------------|------------------------|
-| **4**|Chapter 4, 11 (432-451)  |[L7][ml-l7]              |                 | [Hw 2][ml-hw2] due 4/26
+| **5**|Chapter 4, 11 (432-451)  |                         |                 |
+| 4    |Chapter 4, 11 (432-451)  |[L7][ml-l7]              |                 | [Hw 2][ml-hw2] due 4/26
 | 3    |Chapters 3, 11 (417-432) |[L5][ml-l5] [L6][ml-l6]  |[Lab 3][ml-lab3] | 
 | 2    |Chapters 2, 10 (407-417) |[L3][ml-l3] [L4][ml-l4]  |[Lab 2][ml-lab2] | 
 | 1    |Chapter 1                |[L1][ml-l1] [L2][ml-l2]  |[Lab 1][ml-lab1] | [Hw 1][ml-hw1] due 4/12 - [Solutions][ml-hw1s]
