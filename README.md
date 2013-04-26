@@ -1,5 +1,3 @@
-> YO DON'T USE THIS REPO JUST YET k thx
-
 CPaT Schoolwork
 ===============
 #### [Official Site][cpat-blog] —  [Moodle][cpat-moodle]
@@ -44,7 +42,7 @@ Make sure to do steps 1 & 2 frequently, at the very least once a week. You can a
 
 Now, every once and a while you might run into merge conflicts. Especially if you're making personal commits in persistent files, like using TODO.md as a checklist. But if you're even barely familiar with resolving merge conflicts then you'll be fine. It's just some school assignments.
 
-If you REALLY don't want to deal with merging or anything, then you can use [**update.sh**](#update.sh) and it'll cradle you into easy-ville. Just make sure to read the [section below](#update.sh).
+If you REALLY don't want to deal with merging or anything, then you can use [**update.sh**](#updatesh) and it'll cradle you into easy-ville. Just make sure to read the [section below](#updatesh).
 
 ### If you don't even know what git is
 That's cool! But you should really learn. I'll try to walk you through this process as best I can, but if you're stuck see the section [**Learning Git**](#learning-git) below for more info. Or [ask me](#contact).
@@ -58,7 +56,7 @@ That's cool! But you should really learn. I'll try to walk you through this proc
  * If you're on ada (or some other linux machine) you'd run: ```git clone git@github.com:<username>/<repo-name>.git ```
   * Replace ```<username>``` with your GitHub username, and ```<repo-name>``` with whatever you named your repo.
 
-4. Run the update script. See [update.sh](#update.sh) below for more details.
+4. Run the update script. See [update.sh](#updatesh) below for more details.
  * Enter ```./update.sh``` into the shell.
  * Do this frequently (at least once a week) to not miss anything.
 
