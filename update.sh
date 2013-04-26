@@ -13,13 +13,12 @@ function getNewFiles() {
 # Download and extract the tarball, excluding the files already here locally
   curl -#L $UPSTREAMTARBALL \
   | tar -xzv --strip-components 1 --show-transformed --keep-old-files \
-  --exclude={update.sh,README.md}
+  --exclude={update.sh,README.md,$MOTD}
 }
 
 function getListing() {
 # Sets '$DIRLISTING' as a single, space delimited string of the directory 
 # listing of everything, recursively, currently in the directory.
-#
 # If passed with an argument, then it returns only the listings with filenames  
 # that contain the given string (case-insensitive)
 #   USAGE: getListing [FILENAME] [OPTION(S)]
@@ -79,8 +78,8 @@ function commitUpdate() {
   NEWFILES=$2
 
   if [ -e $MOTD ]; then
-    git rm $MOTD
-    rm $MOTD
+    git rm $MOTD &> /dev/null
+    rm $MOTD &> /dev/null
   fi
   git add $NEWFILES $OVERWRITES
   git commit -m"$CMESSAGE" $NEWFILES $OVERWRITES
@@ -101,9 +100,12 @@ function updateFiles() {
 }
 
 function motd() {
-# Print the most recent motd ($1), then remove the file
-  cat $1 | sed '/^#####/,$ d' | sed '/^>>>>>OVERWRITE/ d'
-  rm $1 2> /dev/null
+# Print the most recent motd at ($MOTD), then remove the file
+  if [ ! -e $MOTD ]; then
+    wget --output-document=$MOTD $MOTDRAWURL &> /dev/null
+  fi
+  cat $MOTD | sed '/^#####/,$ d' | sed '/^>>>>>OVERWRITE/ d' 2> /dev/null
+  rm $MOTD 2> /dev/null
 }
 
 
@@ -112,13 +114,14 @@ function DoIt() {
 # Just do it. Runs everything that the script needs to do
   rm $OVERWRITES 2> /dev/null
   updateFiles
-  motd $MOTD
   commitUpdate "Updated files $(date '+%m/%d/%y')" "$DIFFLS"  # Make a commit for them
+  motd
 }
 
 
 # Main
 if [ "$1" == "--merge" -o "$1" == "-m" ]; then  # If you're no stranger to merge conflicts
+  motd
   if ! git remote -v | grep -q "upstream" ; then
     git remote add upstream $UPSTREAMGIT
   fi
@@ -126,6 +129,7 @@ if [ "$1" == "--merge" -o "$1" == "-m" ]; then  # If you're no stranger to merge
   git checkout master
   git merge upstream/master
 elif [ "$1" == "--force" -o "$1" == "-f" ]; then  # If you live on the edge
+  getOverwrites
   DoIt
 else
   getOverwrites
@@ -137,7 +141,7 @@ else
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     DoIt
   else
-    rm $MOTD 2> /dev/null
+    motd
   fi
 fi
 unset UPSTREAMGIT UPSTREAMTARBALL MOTDRAWURL MOTD OLDLS NEWLS DIRLISTING OVERWRITES DIFFLS
