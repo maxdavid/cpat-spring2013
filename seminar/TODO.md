@@ -18,6 +18,9 @@ Seminar
 #### [Data Near Here][dnh]
 [Submission Forum][moo4]
 
+* If you are interested in more technical depth about this project, see:  Megler, V.M. and Maier, D.: [When Big Data Leads to Lost Data.][dnh2] Winner of PIKM “Best Paper” award. In: PIKM 2012: 5th Workshop for Ph.D. Students at CIKM, Maui, Hawaii (2012).
+* Alternatively, if you are more interested in how to present research to a general audience, take a look at the ideas in [Science as Storytelling][scisto].
+
 ##### Prompts
 * Write a short analysis of the assigned paper.  See [Analysis of a Scientific Paper][anacon] for direction!
 * Write about how well you think the paper accomplishes the goal of communicating with domain scientists (rather than only to computer scientists). See [Presenting CS Research to a (more) general audience][anaexp] for direction!
@@ -46,6 +49,8 @@ Seminar
 
 <!--- Readings Links -->
   [dnh]: http://blogs.evergreen.edu/cpat/files/2013/04/CiSE_Megler_Maier.pdf
+  [dnh2]: http://web.cecs.pdx.edu/~vmegler/p1.pdf
+  [scisto]: http://blogs.evergreen.edu/cpat/files/2013/04/scienceAsStory4_2.pdf
   [anacon]: http://blogs.evergreen.edu/cpat/analysis-of-scientific-paper/
   [anaexp]: http://blogs.evergreen.edu/cpat/presenting-cs-research-to-a-general-audience/
   
