@@ -19,7 +19,7 @@ But really? It was made for you to fork.
 Fork this repo to your account and you'll still get updates on due assignments. Handouts for labs or seminar will automatically download too. AND you can use it as your own, personal place to store files. Homework, seminar papers, labs. Write it all in your favorite editor and use git to access it from anywhere. It's all here.
 
 ### If you can already git
-Fork it, clone it. Add this repo as the remote upstream to your fork:
+Fork it, and clone your fork. Add this repo as the remote upstream:
 
 ```bash
 git remote add upstream git@github.com:pipecork/cpat-spring2013.git
