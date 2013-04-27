@@ -71,6 +71,8 @@ Understandable. While I think it'd be rad to publish your homework with an MIT L
 
 * Make your repo private. Use your .edu email to [sign up for educational account](https://github.com/edu). GitHub will give you 5 private repos for free if you're a student.
 
+* [Bitbucket](https://bitbucket.org/) will give you private hosted repos for free.
+
 * Host your own remote on ada (or any other server):
  1. Clone your fork to your account on ada. We'll assume it's at **~/my-cpat-work**. 
  2. ```cd``` into **~/my-cpat-work** and enter ```git remote rm origin``` to remove it's connection to your GitHub repo. Delete the GitHub repo.
