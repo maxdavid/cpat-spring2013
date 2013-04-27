@@ -1,4 +1,17 @@
 
+- 4/26/13 - /////////////////////////////////////////////////////////////////
+
+  Hey! This week (wk 5) is the first anyone's used this. It should be 
+  up-to-date, but keep an eye out and let me know if you find anything 
+  wrong. Cheers!
+  
+  Max
+  -- davmax04@evergreen.edu
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+##### Everything above this line is printed as the motd, below is archival
+
 - 4/15/13 - /////////////////////////////////////////////////////////////////
 >>>>>OVERWRITE wat wot wut
 
@@ -11,7 +24,7 @@
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-##### Everything above this line is printed as the motd, below is archival
+#####
 
   4/13/13
   
