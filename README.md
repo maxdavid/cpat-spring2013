@@ -131,8 +131,6 @@ disclaimer that comes with all software.
 But we can still be friends if you want.
 ```
 
-## LICENSE
-    WTFPL
 
 <!--- Link Directory -->
 [cpat-blog]: http://blogs.evergreen.edu/cpat
