@@ -27,12 +27,12 @@ git remote add upstream git@github.com:pipecork/cpat-spring2013.git
 
 Now, whenever you want to sync, you can just pull fetch/merge the upstream with pull:
 
-```
+```bash
 git checkout master
 git pull upstream master
 ```
 
-Make sure to pull frequently, at the very least once a week. You can also run ```update.sh``` with the ```--pull/-p``` flag to save yourself the typing, and get any messages from me.
+Make sure to pull frequently, at the very least once a week. You can also run ```update.sh``` with the ```--merge/-m``` flag to save yourself the typing, and get any messages from me.
 
 Now, every once and a while you might run into merge conflicts. Especially if you're making personal commits in persistent files, like using TODO.md as a checklist. But if you're even barely familiar with resolving merge conflicts then you'll be fine. It's just some school assignments.
 
