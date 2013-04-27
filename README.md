@@ -25,20 +25,14 @@ Fork it, and clone your fork. Add this repo as the remote upstream:
 git remote add upstream git@github.com:pipecork/cpat-spring2013.git
 ```
 
-Now, whenever you want to sync, you just:
+Now, whenever you want to sync, you can just pull fetch/merge the upstream with pull:
 
-1. **Fetch** the remote changes to your local upstream branch
-```
-git fetch upstream
-```
-
-2. and **Merge** the new information with the old:
 ```
 git checkout master
-git merge upstream/master
+git pull upstream master
 ```
 
-Make sure to do steps 1 & 2 frequently, at the very least once a week. You can also run ```update.sh``` with the ```--merge/-m``` flag to save yourself the typing of steps 1 & 2.
+Make sure to pull frequently, at the very least once a week. You can also run ```update.sh``` with the ```--pull/-p``` flag to save yourself the typing, and get any messages from me.
 
 Now, every once and a while you might run into merge conflicts. Especially if you're making personal commits in persistent files, like using TODO.md as a checklist. But if you're even barely familiar with resolving merge conflicts then you'll be fine. It's just some school assignments.
 
