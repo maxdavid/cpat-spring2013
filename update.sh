@@ -8,12 +8,13 @@ MOTDRAWURL=https://raw.github.com/pipecork/cpat-spring2013/master/MOTD.txt
 MOTD=MOTD.txt
 OLDLS="/tmp/old_listing"
 NEWLS="/tmp/new_listing"
+UNNEEDEDFILES=( "README.md" "LICENSE.txt" $MOTD )  # Unnecessary files that aren't committed
 
 function getNewFiles() {
 # Download and extract the tarball, excluding the files already here locally
   curl -#L $UPSTREAMTARBALL \
   | tar -xzv --strip-components 1 --show-transformed --keep-old-files \
-  --exclude={update.sh,README.md,$MOTD}
+  --exclude={update.sh,README.md,LICENSE.txt}
 }
 
 function getListing() {
@@ -60,11 +61,12 @@ function getOverwrites() {
     wget --output-document=$MOTD $MOTDRAWURL &> /dev/null
   fi
   OVERWRITES=$(cat "$MOTD" | sed '/^#####/,$ d' \
-              | grep ">>>>>OVERWRITE" "$MOTD" \
+              | grep ">>>>>OVERWRITE" \
               | sed 's/^>>>>>OVERWRITE //g' \
               | sed 's/\s\+/\n/g' \
               )
   OVERWRITES="$DIRLISTING $OVERWRITES"
+  rm $MOTD &> /dev/null
   unset DIRLISTING
 }
 
@@ -74,16 +76,23 @@ function commitUpdate() {
 # $1 -- Commit message
 # $2 -- List of files to commit 
     # Each file MUST be separated by a space in a single string in quotes
+# Files specified in $UNNEEDEDFILES are removed from repo
+
   CMESSAGE=$1
   NEWFILES=$2
+  RMFILES=""
 
-  if [ -e $MOTD ]; then
-    git rm $MOTD &> /dev/null
-    rm $MOTD &> /dev/null
-  fi
+  for i in "${UNNEEDEDFILES[@]}"; do
+    if [ -e $i ]; then
+      git rm $i &> /dev/null
+      rm $i &> /dev/null
+      RMFILES=$RMFILES$" "$i
+    fi
+  done
+
   git add $NEWFILES $OVERWRITES
-  git commit -m"$CMESSAGE" $NEWFILES $OVERWRITES
-  unset CMESSAGE NEWFILES
+  git commit -m"$CMESSAGE" $NEWFILES $OVERWRITES $RMFILES
+  unset CMESSAGE NEWFILES RMFILES
 }
 
 function updateFiles() {
