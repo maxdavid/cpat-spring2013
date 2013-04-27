@@ -25,6 +25,7 @@ Turn in your lab report from today by midnight to fileshare.
 
 <!--- Link Directory -->
 [ml-page]: http://blogs.evergreen.edu/cpat/stats/
+[cpat-moodle]: https://moodle.evergreen.edu/course/view.php?id=3105
 
 <!--- Labs -->
   [ml-lab1]: http://blogs.evergreen.edu/cpat/ml-lab-1/
