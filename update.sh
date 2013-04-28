@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# here be dragons
+# also, poorly written slop
+
 cd "$(dirname "${BASH_SOURCE}")"
 #set -e
 
