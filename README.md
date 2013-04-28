@@ -8,8 +8,9 @@ CPaT Schoolwork
 If you're anything like me, keeping updated on everything CPaT is quickly becoming a hassle. 
 It feels like juggling crabs.
 
-
 So, I made this for myself to keep assigned schoolwork, lectures, documents, updates, and even my personal work **in one place.** But after talking to a few classmates, I realized it might be helpful to everyone. Cheers.
+
+***NOTE:*** *A lot of this README will feel like a tutorial. It's meant for a class with students of varying experience and knowledge.*
 
 ## How to use this Repo
 You *could* just bookmark this page and refer back to it for updates. That's cool, whatever. 
