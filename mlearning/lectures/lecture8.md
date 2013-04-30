@@ -19,13 +19,15 @@ Spend a reasonable amount of time on each lab or homework -- not too little and 
 ## Bayesian Probability
 
 * The basic formula P(A | B) * P(B) = P(A ∩ B)
+
 ```
-              P(A | B) * P(B)
-P(B | A) = ---------------------
-                   P(A)
+               P(A | B) * P(B)
+P(B | A) =  ————————————————————
+                    P(A)
 ```
 * The other piece is P(A) = P(A ∩ B) + P(A – B)
 * Lastly, assuming independence, if A = A1∩…∩An, then we have
+
 ```
 P(A | B) = P(A1∩...∩An | B) = 
 P(A1 | B) *... * P( An | B)
@@ -34,6 +36,7 @@ P(A1 | B) *... * P( An | B)
 
 ## Linear Models
 * Remember the exercise to find a line that separates one species of iris from another? That is a particular approach to linear modeling:
+
 ```
  ∑ wi⋅ai 
     w0 + w1⋅a1 + ... +wk⋅ak
