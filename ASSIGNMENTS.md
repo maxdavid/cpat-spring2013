@@ -4,9 +4,38 @@ Week by Week
 
 ***
 
+## [Week 6][wk6]
+
+##### Monday
+
+* **10-12**  — See Stats and ML pages.
+* **1-3**  — Seminar.
+
+***(ed: see seminar/TODO.md for reading prompts)***
+
+##### Tuesday
+
+* **9:30-10**  — Stats quiz.  You must be in lab to get the password for the quiz, not at home, but you can use your own laptop.  No notes, no books.  After noon the password will be removed and you can take or retake the quiz as many times as you want.
+* **10-12**  — Stats Lab  – Midterm and last week’s stats lab due.  Bring hard copy to lab and submit the excel files for the lab to the fileshare: programs/cpt/Workspace/_StatsLabReports/Week_5/
+* **1-3pm**  Project Meetings with faculty –  Lab 2617 reserved for working on your projects, or finishing Stats or Data Mining labs.
+* **3:30**  — PLATO Royalty Lecture:   Bill Howe, Ph.D., Director of Research, Scalable Data Analytics, eScience Institute, Affiliate Assistant Professor, Department of Computer Science & Engineering, University of Washington.  
+    http://homes.cs.washington.edu/~billhowe/ how cloud computing can support interactive, visual, exploratory science, SQL Share.  Check out [Bill’s new Coursera course:  Introduction to Data Science!](https://www.coursera.org/instructor/~51)  Sound familiar?
+* See [Lecture Schedule](http://blogs.evergreen.edu/cpat/lectures/). Lecture required for all students taking seminar; suggested for all others! Be there or be square – Bill is way cool.
+
+##### Wednesday
+* **10-12**  — See Stats and ML pages.
+
+##### Thursday
+* **9:30**  — ML Turn in your lab report from today by midnight to fileshare (Workspace\\_DataMining\\Lab 5)
+* **1-2:30**  — Project Meetings with faculty – Lab 2617 reserved for working on your projects, or finishing stats or Data Mining labs.
+* by Midnight, post a response on moodle to 2 of other students’ Seminar Papers.
+
+
+***
+
 ## [Week 5][wk5]
 
-##### Monday:
+##### Monday
 
 * **10-12**  – See Stats and ML pages.
 * **1-3**  – Seminar. Required reading – remainder of Lady Tasting Tea.
@@ -39,11 +68,6 @@ Review for stats take-home midterm, which be be available at noon and due Monday
 ##### Friday
 
 ML Homework ???  is due. See ML page.
-
-
-
-***
-
 
 ## [Week 4][wk4]
 Monday’s seminar reading (posted below) is short to give you time to finish Lady Tasting Tea for Week 5.  
@@ -187,5 +211,6 @@ The first week of the quarter will be slightly different from most weeks to make
 [wk3]: http://blogs.evergreen.edu/cpat/week-3-april-15/
 [wk4]: http://blogs.evergreen.edu/cpat/week-4-april-22/
 [wk5]: http://blogs.evergreen.edu/cpat/week-5-april-29/
+[wk6]: http://blogs.evergreen.edu/cpat/week-6-may-6/
 
 
