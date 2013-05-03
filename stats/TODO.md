@@ -16,7 +16,8 @@ TODO
 ## Summary
 | week | reading                 | lectures                | excerpt
 |------|-------------------------|-------------------------|---------------------------------|
-| **5**|Ch. 10, pgs. 286-300(Mon), ch.8 (Wed) |[L7][st-l7] | Midterm Quiz Tuesday, On the moodle, in class – you must be in the lab.  No notes, no books.
+| **6**|
+| 5    |Ch. 10, pgs. 286-300(Mon), ch.8 (Wed) |[L7][st-l7] | Midterm Quiz Tuesday, On the moodle, in class – you must be in the lab.  No notes, no books.
 | 4    |see excerpt              |[L6][st-l6]              | By Tuesday, Read Bestiary of Experimental & Sampling Designs; Intro to ANOVA, (Ch. 7).  See Lecture notes for reading priorities.
 | 3    |Chapters 4,5(Mon),6(Wed) |[L4][st-l4] [L5][st-l5]  | By Tuesday, read Ch. 4,5.  Quiz in Lab at 9:30.  By Wednesday, read Ch. 6.
 | 2    |Chapters 3               |[L2][st-l2] [L3][st-l3]  | 
