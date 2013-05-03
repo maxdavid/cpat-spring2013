@@ -4,15 +4,31 @@ Seminar
 
 ***
 
-## Week 5
-#### Lady-Tasting Tea (2nd half)
-**NOTE:** DO NOT summarize part of the reading or retell a story told by Salsberg in the text. Instead, provide an interpretation of and/or an opinion about what you read. If you feel like the default topics are leading you down a path to summary, please choose your own topic to discuss.
+## Week 6
+#### Two papers from Bill Howe, our Tuesday speaker 
+*(we strongly suggest you read the first paper BEFORE the second)*
+
+1. [SQLShare: ScientificWorkflow via Relational View Sharing.][sqlshare1]  Bill Howe, Francois Ribalet, Daniel Halperin, Sagar Chitnis, E. Virginia Armbrust, Computers in Science and Engineering (CiSE), May/June 2013 (to appear).
+2. [Real-Time Collaborative Analysis with (Almost) Pure SQL: A Case Study in Biogeochemical Oceanography.][sqlshare2]  Daniel Halperin, Konstantin Weitz, Bill Howe, Francois Ribalet, E. Virginia Armbrust.  Scientific and Statistical Database Conference Proceedings, Portland, OR.  2011.
 
 ##### Prompts
-* L.J. Cohen believes that decisions based on probabilistic arguments are not logical decisions (p. 300).  Consider this argument and discuss whether or not statistical models can be used to make decisions.
-* Does statistics primarily deal with distinctions “below the level of human perception” as Suppes argues (p. 307) ? If so, how can it be relevant? How does this insight apply to computing?
+**NOTE:** DO NOT summarize part of the reading. Instead, provide an interpretation of and/or an opinion about what you read. If you feel like the default topics are leading you down a path to summary, please choose your own topic to discuss.
+
+* In the business world the “as-a-service” model (Software as-a-service, Platform as-a-service, etc.) gives companies the ability to turn computing technology into a predictable expense. What does the “as-a-service” model give the scientific community?
+* Both Howe and Megler’s systems improve the availability of scientific data. Their data even comes from similar sources like scientific cruises. However, these projects result in very different systems. Compare and contrast the requirements and results of the “Data near Here” project and the SQLShare project. (If you chose this topic take care to have a thesis and not just a list of observations).
+
 
 ***
+
+## Week 5
+#### Lady-Tasting Tea (2nd half)
+[Submission Forum][moo5]
+
+##### Prompts
+**NOTE:** DO NOT summarize part of the reading or retell a story told by Salsberg in the text. Instead, provide an interpretation of and/or an opinion about what you read. If you feel like the default topics are leading you down a path to summary, please choose your own topic to discuss.
+
+* L.J. Cohen believes that decisions based on probabilistic arguments are not logical decisions (p. 300).  Consider this argument and discuss whether or not statistical models can be used to make decisions.
+* Does statistics primarily deal with distinctions “below the level of human perception” as Suppes argues (p. 307) ? If so, how can it be relevant? How does this insight apply to computing?
 
 ## Week 4
 #### [Data Near Here][dnh]
@@ -54,8 +70,12 @@ Seminar
   [anacon]: http://blogs.evergreen.edu/cpat/analysis-of-scientific-paper/
   [anaexp]: http://blogs.evergreen.edu/cpat/presenting-cs-research-to-a-general-audience/
   
+  [sqlshare1]: http://blogs.evergreen.edu/cpat/files/2013/05/howe_cise.pdf
+  [sqlshare2]: http://blogs.evergreen.edu/cpat/files/2013/05/halperin-howe_ssdbm.pdf
+  
 <!--- Moodle Submission Forums --
   [moo2]: https://moodle.evergreen.edu/mod/forum/view.php?id=84904
   [moo3]: https://moodle.evergreen.edu/mod/forum/view.php?id=88253
   [moo4]: https://moodle.evergreen.edu/mod/forum/view.php?id=88291
-  [moo5]: wat
+  [moo5]: https://moodle.evergreen.edu/mod/forum/view.php?id=88293
+  [moo6]: wat
