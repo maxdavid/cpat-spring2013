@@ -26,6 +26,7 @@ Week by Week
 * **10-12**  — See Stats and ML pages.
 
 ##### Thursday
+* **9:30**  — Midterm and last week’s stats lab due – THIS IS A HARD DEADLINE!  Exceptions only in the most _dire_ of circumstances.
 * **9:30**  — ML Turn in your lab report from today by midnight to fileshare (Workspace\\_DataMining\\Lab 5)
 * **1-2:30**  — Project Meetings with faculty – Lab 2617 reserved for working on your projects, or finishing stats or Data Mining labs.
 * by Midnight, post a response on moodle to 2 of other students’ Seminar Papers.
