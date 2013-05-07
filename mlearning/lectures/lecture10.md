@@ -4,7 +4,7 @@ ML: Lecture 10
 
 * in Witten: Chapter 5
 * Hw 3 is due on Friday
-* Sign up for the Science Carnival the deadline says May 3, but you can still sign up this week.
+* [**Sign up for the Science Carnival**](http://www.evergreen.edu/events/sciencecarnival/) the deadline says May 3, but you can still sign up this week.
 
 ## t-test
 
@@ -27,18 +27,19 @@ Z = (Xtotal - n⋅μ) / σ⋅sqrt(n)
 * Leave one out: how many test runs?
 * Sometimes there are three data sets: training, validation, testing (comparison with other algorithms)
 * What is a paired t-test and what is the difference between that and a standard t-test?
+
 ```
-       davg
-  t =  --------
-      sqrt(σ2 / n)
+            davg
+  t =  ——————————————
+        sqrt(σ2 / n)
 ```
  
 ## Cost analysis
 
 * predicting probabilities: e.g. in a decision tree, you could predict the probabilities rather than a single classification. There are two ways to measure the cost of the loss function:
 ```
-∑(pj - aj)2
--∑aj log2(pj)
+∑(pⱼ - aⱼ)²
+-∑aⱼ log₂(pⱼ)
 ```
     They have slightly different behavior: especially when observed pj is 0
 
@@ -75,6 +76,6 @@ Z = (Xtotal - n⋅μ) / σ⋅sqrt(n)
 * What is the determinant of a matrix?
 * What is the inverse of a matrix?
 ```
-  | 1 1|-1
+  | 1 1|⁻¹
   |-1 1|
 ```
