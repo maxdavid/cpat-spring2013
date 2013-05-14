@@ -4,9 +4,22 @@ Seminar
 
 ***
 
+## Week 7
+#### First half of Jaron Lanier’s You are Not a Gadget (pp. 1-99)
+[Submission Forum][moo7]
+
+##### Prompts
+* Lainer is very aware of how technology can structure consciousness. Pick a pre-internet technology (the printing press, the automobile, municipal water, vaccines, electricity, etc) and compare its effects on consciousness with the effects of the internet as Lanier sees them.
+* Jaron Lanier sees the “singularity” as a technological heaven, and thus a turning away from reason. Is this your understanding of the singularity?
+* Lanier creates an amazing dystopia of the present. The main element lacking from his narrative is a protagonist.  Write a two page short story about a character (or non-character) who lives in Lanier’s dystopia.
+
+
+***
+
 ## Week 6
 #### Two papers from Bill Howe, our Tuesday speaker 
 *(we strongly suggest you read the first paper BEFORE the second)*
+[Submission Forum][moo6]
 
 1. [SQLShare: ScientificWorkflow via Relational View Sharing.][sqlshare1]  Bill Howe, Francois Ribalet, Daniel Halperin, Sagar Chitnis, E. Virginia Armbrust, Computers in Science and Engineering (CiSE), May/June 2013 (to appear).
 2. [Real-Time Collaborative Analysis with (Almost) Pure SQL: A Case Study in Biogeochemical Oceanography.][sqlshare2]  Daniel Halperin, Konstantin Weitz, Bill Howe, Francois Ribalet, E. Virginia Armbrust.  Scientific and Statistical Database Conference Proceedings, Portland, OR.  2011.
@@ -17,8 +30,6 @@ Seminar
 * In the business world the “as-a-service” model (Software as-a-service, Platform as-a-service, etc.) gives companies the ability to turn computing technology into a predictable expense. What does the “as-a-service” model give the scientific community?
 * Both Howe and Megler’s systems improve the availability of scientific data. Their data even comes from similar sources like scientific cruises. However, these projects result in very different systems. Compare and contrast the requirements and results of the “Data near Here” project and the SQLShare project. (If you chose this topic take care to have a thesis and not just a list of observations).
 
-
-***
 
 ## Week 5
 #### Lady-Tasting Tea (2nd half)
@@ -51,7 +62,7 @@ Seminar
 
 ## Week 2
 #### Thinking in Systems
-[Submission Forum][moo3]
+[Submission Forum][moo2]
 
 ##### Prompt
 *  The author (of Thinking in Systems) contrasts systems thinking with science, logic and reductionism (in Ch. 1, p 4 and elsewhere) .  She goes on to claim that the methodologies presented in the book (essentially building and observing the dynamics of stock/flow models), while “not necessarily better” than reductionism allows us to “reclaim our intuition” in ways that could lead to better understanding of the natural world, and policy decisions  (p. 6, for example).  What evidence does she give for this cliam?  How can a model, which is itself a formal system, lend itself to holistic thinking?
@@ -78,4 +89,5 @@ Seminar
   [moo3]: https://moodle.evergreen.edu/mod/forum/view.php?id=88253
   [moo4]: https://moodle.evergreen.edu/mod/forum/view.php?id=88291
   [moo5]: https://moodle.evergreen.edu/mod/forum/view.php?id=88293
-  [moo6]: wat
+  [moo6]: https://moodle.evergreen.edu/mod/forum/view.php?id=90927
+  [moo7]: https://moodle.evergreen.edu/mod/forum/view.php?id=88297
