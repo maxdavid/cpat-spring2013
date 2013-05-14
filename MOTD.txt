@@ -1,4 +1,18 @@
 
+- 5/13/13 - /////////////////////////////////////////////////////////////////
+
+  Yo! Week 7 is in full swing and boy howdy if this quarter hasn't been a 
+  rip-roarin' adventure for us all. Hope everyone's caught up! I'll continue 
+  to update this as schedule allows, but use the official site if anything 
+  seems out of date. Stay out of trouble!
+  
+  Max
+  -- davmax04@evergreen.edu
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+##### Everything above this line is printed as the motd, below is archival
+
 - 4/26/13 - /////////////////////////////////////////////////////////////////
 
   Hey! This week (wk 5) is the first anyone's used this. It should be 
@@ -9,8 +23,6 @@
   -- davmax04@evergreen.edu
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-##### Everything above this line is printed as the motd, below is archival
 
 - 4/15/13 - /////////////////////////////////////////////////////////////////
 >>>>>OVERWRITE wat wot wut
