@@ -10,6 +10,7 @@ ML: Lecture 12
 ### Matrices
 
 * What is the inverse of
+
 ```
   | 1 1|-1
   |-1 1|
@@ -21,6 +22,7 @@ ML: Lecture 12
 ### t-test
 
 * read the pages in Witten on t-test. Suppose you have the following data:
+
 ```
                    deviations         squared deviations
       Xi        |  Xi - μ       |     (Xi - μ)2
@@ -28,21 +30,23 @@ ML: Lecture 12
       0.125
      -0.3
       0.25
-    --------
+  ———————————
   μ = 0.525/4
 ```
 
 ### Bernoulli trials
+
 ```
                                  deviations       squared deviations
       Xi  |  P(x)  | XiP(Xi) |   Xi - μ      |  (Xi - μ)2
       0     0.2         0
       1     0.8        0.8
-                  --------
+                 ———————————
                    μ = 0.8
 ```
 
 * Now you try it for two trials (Binomial, n=2)
+
 ```
                                  deviations       squared deviations
       Xi  |  P(x)  | XiP(Xi) |   Xi - μ      |  (Xi - μ)2
@@ -54,6 +58,7 @@ ML: Lecture 12
 ```
 
 ### K means clustering
+
 ```
     (1, 0), (2, 0), (2.9, 0), (4, 0), (5, 0)
 ```
@@ -61,15 +66,17 @@ ML: Lecture 12
 ### Principle of Least Squares
 
 for example, in regression, you have
+
 ```
-    y(1) = ∑j (wj⋅xj(1))
-    y(2) = ∑j (wj⋅xj(2))  etc
-    minimize ∑ (y(1) - ∑j (wj⋅xj(1)))2
+    y⁽¹⁾ = ∑ⱼ (wⱼ⋅xⱼ⁽¹⁾)
+    y⁽²⁾ = ∑ⱼ (wⱼ⋅xⱼ⁽²⁾)  etc
+    minimize ∑ (y⁽¹⁾ - ∑ⱼ (wⱼ⋅xⱼ⁽¹⁾))²
 ```
 
 ### Decision Tree Algorithms
 
 * What is the information gain (review): ```info([4,2],[5,3])```
+
 ```
     1. 4 log(4) + 2 Log(2) + 5 log(5) + 3 log(3)
     2. 6/14 ⋅ info([4,2] + 8/14 ⋅ info([5,3])
@@ -83,6 +90,7 @@ for example, in regression, you have
 * Missing values are handled by propagating multiple instances to each branch
 * Pruning is very important: subtree replacement, subtree raising. The decisions on subtree
  * replacement are based on information gain, but use a pessimistic confidence interval for the training data. Let’s go over the calculation (P 198), you need to understand the normal distribution and error rates.
+
 ```
   how do you use c = 25%?
   z  = (x - μ) / σ
