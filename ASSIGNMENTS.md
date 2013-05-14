@@ -4,6 +4,36 @@ Week by Week
 
 ***
 
+## [Week 7][wk7]
+
+##### Monday:
+
+* **10-12**  — See Stats and ML pages.
+* **1-3**  — Seminar.
+
+***(ed: see seminar/TODO.md for reading prompts)***
+
+##### Tuesday
+
+* **9:30-10**  – Stats lab.  Last week’s lab due (hardcopy to turn in during lab).  Quiz:  You must be in lab to get the password for the quiz, not at home, but you can use your own laptop.   No notes, no books.  After noon the password will be removed and you can take or retake the quiz as many times as you want.
+* **1-3pm**  — Project Meetings with faculty –  Lab 2617 reserved for working on your projects, or finishing Stats or Data Mining labs.
+* **3:30**  – PLATO Royalty Lecture: Michael Wolfe, Ph.D., Compiler Engineer, [The Portland Group, Inc.](http://www.pgroup.com/)  Technical Computing on GPUs: Why, How, Present and Future.
+ * Lecture required for all students taking seminar; suggested for all others!
+
+##### Wednesday
+* **10-12**  — See Stats and ML pages.
+
+##### Thursday
+
+* **9:30**  — ML Turn in your lab report from today by midnight to fileshare (Workspace\\_DataMining\\Lab 5)
+* **1-2:30**  — Project Meetings with faculty – Lab 2617 reserved for working on your projects, or finishing stats or Data Mining labs.
+* by Midnight, post a response on moodle to 2 of other students’ Seminar Papers.
+
+##### Friday
+ML Homework due. See ML page.
+
+***
+
 ## [Week 6][wk6]
 
 ##### Monday
@@ -31,8 +61,6 @@ Week by Week
 * **1-2:30**  — Project Meetings with faculty – Lab 2617 reserved for working on your projects, or finishing stats or Data Mining labs.
 * by Midnight, post a response on moodle to 2 of other students’ Seminar Papers.
 
-
-***
 
 ## [Week 5][wk5]
 
@@ -213,5 +241,5 @@ The first week of the quarter will be slightly different from most weeks to make
 [wk4]: http://blogs.evergreen.edu/cpat/week-4-april-22/
 [wk5]: http://blogs.evergreen.edu/cpat/week-5-april-29/
 [wk6]: http://blogs.evergreen.edu/cpat/week-6-may-6/
-
+[wk7]: http://blogs.evergreen.edu/cpat/week-7-may-13/
 
