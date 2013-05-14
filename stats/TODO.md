@@ -3,6 +3,28 @@ TODO
 #### [Official Stats Page][stats-page] —  [Moodle][cpat-moodle]
 
 ***
+
+## Week 6
+* Reading:
+ * By Tuesday, Ch. 9 on Regression pp. 239-266.
+ * By Wednesday, Ch. 8 – Managing and Curating Data, review pp 223-236 (Data Transformations)
+* Monday Lecture.  Regression — chalk talk – lecture notes are minimal – see book to review.  Curious about midterm?  See MidTermFAQs
+* Tuesday Lab – on Handouts\Stats week 6.   Weekly Quiz, moodle in class – you must be in the lab.  No notes, no books.  Lab on Regression.
+* Wednesday Lecture.  More about regressions; debrief lab.  See GalapagosDemoScript and GalapagosData.
+ * if time – talk about what to expect on the final exam….
+
+#### Monday Lecture notes:
+
+* Regression...  when you have a continuous X and a continuous Y
+ * What regression (fitting a line to a set of points) does for you!
+ * How do you know you’ve got a ‘good’ line?  (parametric, resampling)
+ * What to do if you don’t?
+* Some more advanced topics (Wednesday)
+ * data transformation
+ * multiple regression (more than 1 X)
+ * logistic regression (categorical Xs)
+
+***
 ## Week 5
 * Reading:
  * By Tuesday, Ch. 10 on 1-way ANOVA pp. 289-300.
@@ -10,8 +32,6 @@ TODO
 * Monday Lecture.  ANOVA recap – Excel Sheet with Simple Example – chalk talk – lecture notes are minimal – see book to review.
 * Tuesday Lab – on Handouts\Stats week 5.   Midterm Quiz, On the moodle, in class – you must be in the lab.  No notes, no books.  Lab will be short:  review 1-way ANOVA, Week 4 Lab due (review in lab).
 * Wednesday Lecture.  Review (ask Questions); Distribute Take home Midterm; Lecture on Managing & Curating Data
-
-***
 
 ## Summary
 | week | reading                 | lectures                | excerpt
