@@ -29,12 +29,13 @@ rate of success = TP + TN / TP + TN + FP + FN
 ### Some Linear Algebra
 
 * A matrix has two applications in this context: linear functions and linear equations
+
 ```
 2x + y = 1
 3x + 2y = 5
 
 f(x, y) = (2x + y, 3x + 2y)
-```   
+```
 
 * What does it mean to solve the equation above?
 * Only square matrices have inverses. The most common case is an overconstrained system:
@@ -43,6 +44,7 @@ f(x, y) = (2x + y, 3x + 2y)
 * The pseudo-inverse satisfies a least squares property — it minimizes the sum of squares of the errors.
 
 * We have practiced multiplying matrices — what is the rule? Square the following matrix:
+
 ```
 |0 1|
 |1 0|
@@ -50,11 +52,13 @@ f(x, y) = (2x + y, 3x + 2y)
 
 * What is the determinant of a matrix? What is it good for?
 * find the determinants of the following matrices:
+
 ```
 |0 1|    | 1 1|    |1 1|
 |1 0|    |-1 1|    |1 1|
 ```
 * What is the inverse of a matrix?
+
 ```
 | 1 1|-1   =
 |-1 1|
