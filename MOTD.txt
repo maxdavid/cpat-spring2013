@@ -1,3 +1,16 @@
+- 5/21/13 - /////////////////////////////////////////////////////////////////
+
+  Hey! Sorry I've been a bit lazy in updating this, it's not exactly a 
+  priority when compared to the actual work for the class. I hope you, my 
+  adoring fans, understand. I'll try to be quicker as we wrap up but no 
+  promises! Best of luck with Week ∞
+  
+  Max
+  -- davmax04@evergreen.edu
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+##### Everything above this line is printed as the motd, below is archival
 
 - 5/13/13 - /////////////////////////////////////////////////////////////////
 
@@ -10,8 +23,6 @@
   -- davmax04@evergreen.edu
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-##### Everything above this line is printed as the motd, below is archival
 
 - 4/26/13 - /////////////////////////////////////////////////////////////////
 
