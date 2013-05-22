@@ -1,0 +1,56 @@
+Species_ID,Genus_name,Species_name,Variety_name,Common_name,Authority,Comments,sp_num
+ABAM,Abies,amabalis,,Pacific silver fir,(Dougl. ex Loud.) Dougl. ex Forbes,,18
+ABGR,Abies,grandis,,grand fir,(Dougl. ex D. Don) Lindl.,,38
+ABPR,Abies,procera,,noble fir,Rehd.,,34
+ACCI,Acer,circinatum,,vine maple,Pursh,,5
+ACGL,Acer,glabrum,,Rocky mountain maple,Torr.,,49
+ACMA,Acer,macrophyllum,,bigleaf maple,Pursh,ACMA3 in plants database,4
+ACTR,Achlys,triphylla,,,(Sm.) DC.,,57
+ALRU,Alnus,rubra,,red alder,Bong.,,1
+AMAL,Amelanchier,alnifolia,,serviceberry,(Nutt.) Nutt. ex M. Roemer,looks like is AMAL2 in plants database,11
+BENE,Mahonia,nervosa,,Oregon grape, (Pursh) Nutt.,"Is no longer Berberis, but instead Mahonia, MANE2 in plants database",60
+CACH,Chrysolepis,chrysophylla,var. chrysophylla,golden chinkapin,Dougl. ex Hook.) Hjelmqvist,Castanopsis chrysophylla not accepted by IT IS - CHCHC4 in plants db,13
+COCO,Corylus,cornuta,var. Californica,beaked hazelnut,Marsh.,COCO6 in plants database,8
+CONU,Cornus,nuttallii,,Pacifc dogwood,Audubon ex Torr. & Gray,,12
+CONU?,Cornus,nuttallii,,,,"most likely Pacific dogwood, but not confirmed in the field",28
+ELDER?,Sambucus,racemosa,,,,"most likely elderberry, but not confirmed in the field",27
+GASH,Gaultheria,shallon,,salal,Pursh,,55
+HODI,Holodiscus,discolor,,oceanspray,(Pursh) Maxim.,was recorded in MC originally as species 54,40
+MAFU, Malus,fusca,,Oregon crabapple,(Raf.) Schneid.,,39
+MEFE,Menziesia,ferruginea,,rusty menziesia,Sm.,,21
+OPHO,Oplopanax,horridus,,devils club,Miq.,,22
+OXOR,Oxalis,oregana,,redwood sorrel,Nutt.,,59
+PIMO,Pinus,monticola,,western white pine,Dougl. ex D. Don,,35
+PISI,Picea,sitchensis,,Sitka spruce,(Bong.) Carr.,,19
+POMU,Polystichum,munitum,,swordfern, (Kaulfuss) K. Presl,,58
+PREM,Prunus,emarginata,,bitter cherry,(Dougl. ex Hook.) D. Dietr.,,9
+PSME,Pseudotsuga,menziesii,,Douglas-fir,(Mirbel) Franco,,2
+RAPU,,,,,,,53
+RHAL,Rhamnus,alnifolia,,alderleaf buckthorn, L'Hér.,,48
+RHMA,Rhododendron,macrophyllum,,Pacific rhododendron,D. Don ex G. Don,RHMA3 in plants database,17
+RHPU,Frangula,purshiana,,cascara,(DC.) Cooper,updated to Frangula from Rhamnus - rhamnus no longer accepted by IT IS,10
+RIRO,Ribes,,,,,,41
+ROAD,Rosa,,,,,,45
+ROGY,Rosa,gymnocarpa,,dwarf rose,Nutt.,,23
+RULE,Rubus,leucodermis,,whitebark raspberry, Dougl. ex Torr. & Gray,,42
+RUPA,Rubus,parviflorus,,thimbleberry,Nutt.,,15
+RUSP,Rubus,spectabilis,,salmonberry,Pursh,,24
+RUUR,Rubus,ursinus,,California blackberry,Cham. & Schlecht.,,56
+RVSP,,,,,,?typo and is RUSP?,46
+SACE,Sambucus,nigra, L. ssp. Caerulea,blue elder,(Raf.) R. Bolli,,52
+SARA,Sambucus,racemosa,,red eldberberry,L. var. racemosa,callicarpa not accepted by IT IS - updated to racemosa - plants database uses SARAR3,25
+SASC,Salix,scouleriana,,Scouler's willow, Barratt ex Hook.,,44
+SOSI,,,,,,,47
+SYMO,Symphoricarpos,mollis,,snowberry,Nutt.,,43
+TABR,Taxus,brevifolia,,Pacific yew,Nutt.,TABR2 in plants database,7
+THPL,Thuja,plicata,,western redcedar,Donn ex D. Don,,6
+TITR,Tiarella,trifoliata,,foamflower, L.,,57
+TSHE,Tsuga,heterophylla,,western hemlock,(Raf.) Sarg.,,3
+UNKN,Unknown,,,,,This is a species that could not be identified in the field,20
+VAAL,Vaccinium,alaskaense,,Alaska blueberry,T.J. Howell,,26
+VAAP,,,,,,,51
+VAME,Vaccinium,membranaceum,,thinleaf huckleberry,Dougl. ex Torr.,,36
+VAPA,Vaccinium,parvifolium,,red huckleberry,Sm.,,16
+VAPL,Vancouveria,planipetala,,redwood inside out flower,Calloni,"according to plants DB, this is not found in WA",37
+VAXX,Vaccinium,,,,,unknown species of Vaccinium,33
+YS,,,,,,,50

@@ -1,0 +1,4 @@
+Site_ID,Stem_id,Plot_id,Stem_tag,Species_ID,locationxyz_x,locationxyz_y,locationxyz_z,DBH,Live_status,Height,Crown_base,Radii_N,Radii_E,Radii_S,Radii_W,Rite_in_Rain_book
+OH,3,1,3,PSME,3.3,-5.7,0,99,L,62.4,58.7,4.3,2.7,2.4,6.7,
+OH,6,1,6,THPL,4.2,0,0,88.8,L,37.5,15.4,7.1,7,4.5,3.9,
+OH,8,1,8,PSME,6.2,-4.3,0,103.3,L,63,39.4,3.9,4.1,6.4,9,
