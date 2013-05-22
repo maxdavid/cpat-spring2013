@@ -4,17 +4,25 @@ Seminar
 
 ***
 
+## Week 8
+#### Second half of Jaron Lanier’s *You are Not a Gadget* (pp. 100-end)
+[Submission Forum][moo8]
+
+##### Prompts
+* Lanier takes a mostly negative and aggressive stance throughout the book. This tone can be off-putting. In addition, his ideas run against the beliefs of many CS majors. Your challenge, then, is to find a viewpoint in the book that you agree with (or partially agree with) and expand upon and transform Lanier’s concerns in that section into your own concerns. (Students in Aaron’s and Judy’s seminarshould be prepared with one of these ideas even if they choose to write on another topic.)
+* From Lanier’s viewpoint, how does “cybernetic totalism” threaten science? What does Lanier’s version of science look like? Make sure you re-read chapters 11 and 13 if you answer this question. Above all, make sure you have a thesis.
+* Lanier’s book is full of contradictions. At the same time it is full of short, blog-like sub-chapters which make it difficult to follow the logic of his argument at all but the most basic of levels. Pick one contradiction and use it as the basis for creating an understanding of Lanier’s work.
+
+***
+
 ## Week 7
-#### First half of Jaron Lanier’s You are Not a Gadget (pp. 1-99)
+#### First half of Jaron Lanier’s *You are Not a Gadget* (pp. 1-99)
 [Submission Forum][moo7]
 
 ##### Prompts
 * Lainer is very aware of how technology can structure consciousness. Pick a pre-internet technology (the printing press, the automobile, municipal water, vaccines, electricity, etc) and compare its effects on consciousness with the effects of the internet as Lanier sees them.
 * Jaron Lanier sees the “singularity” as a technological heaven, and thus a turning away from reason. Is this your understanding of the singularity?
 * Lanier creates an amazing dystopia of the present. The main element lacking from his narrative is a protagonist.  Write a two page short story about a character (or non-character) who lives in Lanier’s dystopia.
-
-
-***
 
 ## Week 6
 #### Two papers from Bill Howe, our Tuesday speaker 
@@ -84,10 +92,11 @@ Seminar
   [sqlshare1]: http://blogs.evergreen.edu/cpat/files/2013/05/howe_cise.pdf
   [sqlshare2]: http://blogs.evergreen.edu/cpat/files/2013/05/halperin-howe_ssdbm.pdf
   
-<!--- Moodle Submission Forums --
+<!--- Moodle Submission Forums -->
   [moo2]: https://moodle.evergreen.edu/mod/forum/view.php?id=84904
   [moo3]: https://moodle.evergreen.edu/mod/forum/view.php?id=88253
   [moo4]: https://moodle.evergreen.edu/mod/forum/view.php?id=88291
   [moo5]: https://moodle.evergreen.edu/mod/forum/view.php?id=88293
   [moo6]: https://moodle.evergreen.edu/mod/forum/view.php?id=90927
   [moo7]: https://moodle.evergreen.edu/mod/forum/view.php?id=88297
+  [moo8]: https://moodle.evergreen.edu/mod/quiz/view.php?id=96413
