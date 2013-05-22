@@ -4,6 +4,44 @@ Week by Week
 
 ***
 
+## [Week 8][wk8]
+
+Interested in SOS for next year?  See the [Academic Fair Handout.](http://blogs.evergreen.edu/cpat/files/2013/05/SOS2013AcadFairDRAFT.doc)
+
+Docs (pull down menu), see
+
+* If you are behind on the Stats Labs or Midterm, it’s not too late – check out help from Robyn Mondays 3-5pm! See [CPaT-help](http://blogs.evergreen.edu/cpat/files/2013/04/CPaT-help1.pdf)  Note also that if you need help with STATS concepts – the QuaSAR center can help!  They won’t know JMP or Resampling Stats, but the know the concepts!  They have lots of hours where stats help is available.
+* CPaT-scheduleWithProjectMtgs has class and project meeting times, rooms.
+
+##### Monday:
+
+* **10-12**  — See Stats and ML pages.
+* **1-3**  — Seminar.
+* 
+***(ed: see seminar/TODO.md for reading prompts)***
+
+##### Tuesday
+
+* **9:30-10**  — Scientific visualization lab.  Last week’s stats lab due (hardcopy to turn in during lab).  Quiz:  No quiz this week – to give you more time to work on the Processing Lab!
+* **1-3pm**  — Project Meetings with faculty –  Lab 2617 reserved for working on your projects, or finishing Stats or Data Mining labs.
+* **3:30**  — PLATO Royalty Lecture:   Jenny Orr, Ph.D., Professor and Chair, Computer Science Dept., Willamette University.  Computer graphics for non programmers – Processing.
+
+##### Wednesday
+* **10-12**  — See Stats and ML pages.
+
+##### Thursday
+* Special Event – our last week’s Speaker, Michael Wolfe, will be giving an IEEE webinar on high performance compilers  [http://www.computer.org/portal/web/pressroom/Webinar-Set-on-Programming-Heterogeneous-X64-GPU-Systems-Using-OpenACC1](http://www.computer.org/portal/web/pressroom/Webinar-Set-on-Programming-Heterogeneous-X64-GPU-Systems-Using-OpenACC1)  There is a link to a registration page there.
+
+* **9:30  — There will be a quiz, a discussion of stats and ML with calculations, and a lab on induction and loop invariants)
+* **1-2:30**  — Project Meetings with faculty – Lab 2617 reserved for working on your projects, or finishing stats or Data Mining labs.
+* by Midnight, post a response on moodle to 2 of other students’ Seminar Papers.
+
+##### Friday
+* ML Homework 5 due. See ML page.
+
+
+***
+
 ## [Week 7][wk7]
 
 ##### Monday:
@@ -31,8 +69,6 @@ Week by Week
 
 ##### Friday
 ML Homework due. See ML page.
-
-***
 
 ## [Week 6][wk6]
 
@@ -242,4 +278,5 @@ The first week of the quarter will be slightly different from most weeks to make
 [wk5]: http://blogs.evergreen.edu/cpat/week-5-april-29/
 [wk6]: http://blogs.evergreen.edu/cpat/week-6-may-6/
 [wk7]: http://blogs.evergreen.edu/cpat/week-7-may-13/
+[wk8]: http://blogs.evergreen.edu/cpat/week-8-may-20/
 
