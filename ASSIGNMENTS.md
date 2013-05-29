@@ -4,6 +4,33 @@ Week by Week
 
 ***
 
+## [Week 9][wk9]
+
+##### Monday
+**No Classes (Memorial Day Holiday)**
+
+##### Tuesday
+**HEADS UP!**  Student Advising will likely be on strike Tuesday, and many campus facilities will close for lack of staff.  IF THIS IS THE CASE, we will post the Stats Lab and you can do it on your own.
+
+Project meetings and our lecture will take place at **The Capitol House Apartments, 420 Sherman St. SW.**  See email from the moodle for more information (sent Monday around 7pm). 
+
+* **9:30-10** – R (stats) lab.  Last week’s stats lab due (hardcopy to turn in during lab).  No Quiz to allow time to finish the R lab, and talk with faculty about any labs you might be missing.
+* **1-3pm**  — Project Meetings with faculty –  Lab 2617 reserved for working on your projects, or finishing Stats or Data Mining labs.
+* **3:30** – PLATO Royalty Lecture:   Bob McKane, Environmental Protection Agency, Corvallis OR.  Modeling Natural Hydrologic Systems with VELMA (Visualizing Ecosystems for Land Management Assessments) – Coupled hydrological & biogeochemical cycle.
+
+##### Wednesday
+* **10-12**  — See Stats and ML pages.
+
+##### Thursday
+
+* **9:30**  — ML final exam (in lab; on the moodle).  time in lab for you to finish any outstanding labs.
+* **1-2:30**  – Project Meetings with faculty – Lab 2617 reserved for working on your projects, or finishing stats or Data Mining labs.
+
+##### Friday
+No ML Homework due. See ML page.
+
+***
+
 ## [Week 8][wk8]
 
 Interested in SOS for next year?  See the [Academic Fair Handout.](http://blogs.evergreen.edu/cpat/files/2013/05/SOS2013AcadFairDRAFT.doc)
@@ -39,8 +66,6 @@ Docs (pull down menu), see
 ##### Friday
 * ML Homework 5 due. See ML page.
 
-
-***
 
 ## [Week 7][wk7]
 
@@ -279,4 +304,6 @@ The first week of the quarter will be slightly different from most weeks to make
 [wk6]: http://blogs.evergreen.edu/cpat/week-6-may-6/
 [wk7]: http://blogs.evergreen.edu/cpat/week-7-may-13/
 [wk8]: http://blogs.evergreen.edu/cpat/week-8-may-20/
+[wk9]: http://blogs.evergreen.edu/cpat/week-9-may-27/
+[wk10]: http://blogs.evergreen.edu/cpat/week-10-june-3/
 
