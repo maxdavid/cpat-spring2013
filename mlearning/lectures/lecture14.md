@@ -12,12 +12,12 @@ ML: Lecture 14
 * Now you try it for two trials (Binomial, n=2)
 
 ```
-                                deviations       squared deviations
+                                deviations     squared deviations
       Xi  |  P(x)  | XᵢP(Xᵢ) |   Xᵢ - μ      |  (Xᵢ - μ)2
       0     0.04
       1     0.32
       2
-                  --------
+                  ————————
                    μ = 
 ```
   
