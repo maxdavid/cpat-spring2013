@@ -4,7 +4,7 @@ ML: Homework 5
 * Fill in the rest of the table for computing the variance for a binomial distribution with p = 0.8 and n = 2.
 
 ```
-Xi  | P(x) | XiP(Xi) | Xi – μ | (Xi – μ)2
+Xᵢ  | P(x) | XᵢP(Xᵢ) | Xᵢ – μ | (Xᵢ – μ)²
 0   | 0.04 |
 1   | 0.32 |
 2   |      |
