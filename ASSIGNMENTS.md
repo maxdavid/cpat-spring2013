@@ -2,6 +2,34 @@ Week by Week
 ============
 #### [Official Week-by-Week Page][wk-page]
 
+<!---
+## [Week 10][wk10]
+*Interested in SOS for next year?  See the Academic Fair Handout.
+
+##### Monday
+
+* **10-12**  – Project Presentations and Thomas Hearndon (U Mass, Amherst) visit — sign up for evaluation conferences with seminar leader (if you are not doing seminar, you have been assigned to another faculty for your conference – probably your project faculty).
+* **1-3**  – Last Seminar of the quarter.  Seminar Portfolio’s (with your final 2-3 page paper – a synthesis of several readings and/or lectures OR a rewrite of one of your papers).  Please read (or reread) the sections from Weizenbaum’s Computer Power and Human Reason.  link to be posted asap
+
+##### Tuesday
+
+* **9:30**  – ML and Stats Portfolio’s due.
+* **9:30-10:15**  – Stats Final Exam, in lab, on Moodle.
+* **10:30-12**  – Project Presentations
+* **1-3pm**  – Project Presentations
+* **3:30**  – Project Presentations
+
+##### Wednesday 
+
+* **10-12**  – Project Presentations.
+
+##### Thursday
+
+* **9:30-12**  – Project Final Report Due.  Project Presentations
+* **1-2:30**  – Project Presentations and Pot Luck at location to be announced.
+
+-->
+
 ***
 
 ## [Week 9][wk9]
