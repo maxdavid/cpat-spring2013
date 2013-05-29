@@ -13,12 +13,12 @@ ML: Lecture 14
 
 ```
                                 deviations     squared deviations
-      Xi  |  P(x)  | XᵢP(Xᵢ) |   Xᵢ - μ      |  (Xᵢ - μ)2
-      0     0.04
-      1     0.32
+      Xi  |  P(x)  | XᵢP(Xᵢ) |   Xᵢ - μ      |  (Xᵢ - μ)²
+      0      0.04
+      1      0.32
       2
-                  ————————
-                   μ = 
+                    ————————
+                     μ = 
 ```
   
 ### Classification Rules
