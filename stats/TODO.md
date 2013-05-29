@@ -4,6 +4,45 @@ TODO
 
 ***
 
+## Week 10
+* Stats Problems for the Final Take Home Exam will be posted by Friday, Week 8, so you can start working on that.  You’ll have the rest (1) a Stella model problem (2) two ‘essay’ questions by Monday Week 9.
+* TUESDAY Week 10, 9:30am.  Exam and Portfolios due   No Exceptions
+* TUESDAY Week 10, 9:30 – 10:15.  In Class Moodle Quiz -  in Lab.
+
+## Week 9
+* No reading for this week – use the time to catch up and start reviewing for the final!
+* Monday Lecture :  no class – Memorial day
+* Tuesday Lab: R
+* Wednesday Lecture:  Data archives.
+
+***
+
+## Week 8
+* No reading for this week – use the time to catch up and start reviewing for the final!
+* Monday Lecture :  Judy demo’d CART model for the Iris data set.  Lee Zeman introduced us to Processing – See [ProcessingOverview](http://alala.evergreen.edu/misc/processing/ProcessingOverview.pdf)
+* Tuesday Lab will be in the fileshare Handouts and at:  http://alala.evergreen.edu/misc/processing/Processinglab.html
+* Wednesday Lecture:  Review and midterm debrief
+* Thursday, in ML Lab – Midterms and Labs returned.
+
+#### Wednesday Lecture:
+
+* Debrief Processing Lab -
+ * review code — if you still have questions see Judy’s example code ([as text](http://blogs.evergreen.edu/cpat/files/2013/05/MyTreeExperiment.txt))
+
+* Quick Overview of Stats Learned….  (see [slides](http://blogs.evergreen.edu/cpat/files/2013/05/StatsReview.pdf) -  and  "the [Flowchart](http://blogs.evergreen.edu/cpat/files/2013/05/statistical_test_flowchart_2013.pdf)").  Outline of the Quick Overview (what is in the slides) is below.
+ * Asking questions in Science
+ * Experimental Design – replication and randomization, independence (confounding factors) – Manipulation and Natural Experiments
+ * The Matrix (and the statistical tests we studied)
+ * Interpreting and reporting the results
+
+
+## Week 7
+* Reading: Focus on one-way contingency tables – Ch. 10 pp. 349-358.
+* Monday Lecture. [Judy’s lecture notes on Chi-Square](http://blogs.evergreen.edu/cpat/files/2013/05/chi-squareNotes.docx), but most of what we did was a chalk talk – of the example in the Tuesday Lab (see below).
+* Tuesday Lab – on [Handouts\Stats](https://myfiles.evergreen.edu/academics/programs/cpt/Handouts/Stats/) week 6.   Weekly Quiz, moodle in class – you must be in the lab.  No notes, no books.  Lab on Regression.
+* Wednesday Lecture.  Debrief of h2olos Stella Model (Midterm) – key will be posted on Tuesday – not all exams are in yet; debrief lab – question was about how to organize 1kcs data for chi-square analysis and make a contingency table.  Answer is:  load the 1kcs data into JMP, do the chi-square, then use JMP output to make your contingency table!
+
+
 ## Week 6
 * Reading:
  * By Tuesday, Ch. 9 on Regression pp. 239-266.
@@ -24,7 +63,6 @@ TODO
  * multiple regression (more than 1 X)
  * logistic regression (categorical Xs)
 
-***
 ## Week 5
 * Reading:
  * By Tuesday, Ch. 10 on 1-way ANOVA pp. 289-300.
