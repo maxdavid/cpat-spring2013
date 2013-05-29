@@ -3,14 +3,14 @@ ML: Lab 7
 
 ## Induction and proving programs correct.
 
-#### Learning Objectives.
-a) Explain how to apply induction to proving programs correct in the case of loops.
-b) Apply loop invariants to designing correct algorithms
+#### Learning Objectives
+1. Explain how to apply induction to proving programs correct in the case of loops.
+2. Apply loop invariants to designing correct algorithms
 
 #### Learning Outcomes
-a) Students will be able to analyze a loop and create loop invariants
-b) Using induction, students will be able to prove that a final condition is satisfied when a loop terminates.
-c) Students will be able to code a loop based on a loop invariant.
+1. Students will be able to analyze a loop and create loop invariants
+2. Using induction, students will be able to prove that a final condition is satisfied when a loop terminates.
+3. Students will be able to code a loop based on a loop invariant.
 
 #### Problem P:
 Two brothers are stuck. They are out of gas, they are at the bottom of a 50 foot hill, and the next gas station is on the other side. If they push the car to the top of the hill, they can coast to the gas station. Tom pushes the car 3 feet, takes a puff on his cigar and the car rolls back two feet. How many times does he puff on his cigar before getting to the top of the hill? Note that as soon as the car gets to the top of the hill, it will not roll back. There are two operations that change the state of the car: push() and roll(). Smoking does not change the state of the car, but it does change the state of nPuffs.
@@ -30,11 +30,9 @@ However, it can also be very useful for reasoning about programs and proving the
 
 First, a note about proving programs correct. there are three different pairs of terms that are used interchangeably:
 
-```
-pre-condition, post-condition
-requires, ensures
-assumed true, confirmed true
-```
+* ```pre-condition, post-condition```
+* ```requires, ensures```
+* ```assumed true, confirmed true```
 
 Proving programs correct is all about applying logic, given that certain conditions are true at the beginning of the program or program fragment, then certain conditions will be true at the end.
 
@@ -85,12 +83,12 @@ for (i=0; i0, k < MaxInt k = k+1 1 k = #k + 1 j > MinInt) {
 This is the reasoning table for the example above: (also need to prove termination). The number of rows is the number of lines of code plus the number of states. We can do this with 5 rows, as shown below. The first thing is to fill in the Assumed true condition for state 0 and the confirmed true condition for state 2. Then, fill in the pre- and post-conditions for each code statement. We use #j and #k to indicate the old values for these variables.
 
 ```
-State     Code     Assume        Confirmed
-  0                j>0,          k < MaxInt
+State     Code       Assume         Confirmed
+  0                  j>0,           k < MaxInt
           k = k+1
-  1                k = #k + 1    j > MinInt
+  1                  k = #k + 1     j > MinInt
           j = j-1
-  2                j = #j - 1    j + k = #j + #k, j >=0
+  2                  j = #j - 1     j + k = #j + #k, j >=0
 ```
 
 What we see is that since ```j >= 0``` implies that ```j > MinInt```, the latter condition will always be satisfied. We can also see that ```k >= MinInt```. We have no way to assert ```k < MaxInt```; however, we know that ```#j + #k ≤ MaxInt``` and ```j ≥ 0```. Thus, we need ```j+k ≤ MaxInt``` at every iteration.
@@ -114,9 +112,12 @@ precondition: s < 50
 postcondition: s = #s – 2
 
 if (s < 50) then nPuffs++
+```
 
-Homework:
-Note that the following loop does not work:
+### Homework:
+* Note that the following loop does not work:
+
+```
 while (s<50)
 Push()
 Puff()
@@ -124,5 +125,4 @@ Roll()
 ```
 
 ### Conclusion:
-Applying induction to finish the proof, including termination.
-
+* Applying induction to finish the proof, including termination.
