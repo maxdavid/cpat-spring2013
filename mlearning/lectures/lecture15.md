@@ -13,13 +13,13 @@ ML: Lecture 15
 * Now you try it for two trials (Binomial, n=2)
 
 ```
-                              deviations      squared deviations
+                              deviations     squared deviations
     Xi  |  P(x)  | XiP(Xi) |   Xi - μ      |  (Xi - μ)2
-    0     0.04     0        -1.6
-    1     0.32     .32      -0.6
-    2     0.64    1.28       0.4
-                --------
-                 μ = 1.6
+    0      0.04    0          -1.6
+    1      0.32     .32       -0.6
+    2      0.64    1.28        0.4
+                 ——————————
+                  μ = 1.6
 ```
 
 ### Perceptron
