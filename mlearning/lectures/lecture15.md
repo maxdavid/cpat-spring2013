@@ -14,7 +14,7 @@ ML: Lecture 15
 
 ```
                               deviations     squared deviations
-    Xi  |  P(x)  | XiP(Xi) |   Xi - μ      |  (Xi - μ)2
+    Xᵢ  |  P(x)  | XᵢP(Xᵢ) |   Xᵢ - μ      |  (Xᵢ - μ)²
     0      0.04    0          -1.6
     1      0.32     .32       -0.6
     2      0.64    1.28        0.4
@@ -33,7 +33,7 @@ ML: Lecture 15
 ### Radial Basis Functions
 
 * radial basis functions are multidimensional Gaussian distributions:
-* (1/σsqrt(2π)) * e-1/2 *((x – μ)/σ)2
+* ```(1/σsqrt(2π)) * e⁻¹/² *⁽⁽ˣ ⁻ μ⁾/ᵟ⁾²```
 * you can use them for clustering
 * you can use them for networks: take the outputs of the hidden units as RBFs, add them up and run them through a sigmoid function. 
 
@@ -46,7 +46,7 @@ ML: Lecture 15
 * reducing irrelevant attributes (weighting them less):
 
 ```
-sqrt(w12(x1 - y1)2 + ... + wm2(xm - ym)2)
+sqrt(w₁²(x₁ - y₁)² + ... + wₘ²(xₘ - yₘ)²)
 ```
 
 * Generalization. An instance is generalized by replacing it with a rectangle (hyperrectangle). The computational problem is to generalize the distance function to rectangles. 
