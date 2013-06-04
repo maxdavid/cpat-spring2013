@@ -62,7 +62,7 @@ Also see [ASSIGNMENTS.md][assignments-md]
 [assignments-md]: https://github.com/pipecork/cpat-spring2013/blob/master/ASSIGNMENTS.md#week-by-week
 
 <!--- Week-by-Week -->
-  [cur-wk]: http://blogs.evergreen.edu/cpat/week-9-may-27/
+  [cur-wk]: http://blogs.evergreen.edu/cpat/week-10-june-3/
   [wk10]: http://blogs.evergreen.edu/cpat/week-10-june-3/
   [wk9]: http://blogs.evergreen.edu/cpat/week-9-may-27/
   [wk8]: http://blogs.evergreen.edu/cpat/week-8-may-20/

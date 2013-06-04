@@ -2,14 +2,22 @@ Week by Week
 ============
 #### [Official Week-by-Week Page][wk-page]
 
-<!---
+***
+
 ## [Week 10][wk10]
 *Interested in SOS for next year?  See the Academic Fair Handout.
+* Project Presentation Schedule (with room assignments) is [posted](http://blogs.evergreen.edu/cpat/presentation-schedule/). Come 15 minutes early to the session where you present to make sure A/V is set up.  If you are presenting in a Seminar Room (Monday 1-3), you might need to bring your laptop!  If you have software you need installed, bring your laptop.
+ * All - please attend all class sessions to hear about your peers’ projects!
 
 ##### Monday
 
 * **10-12**  – Project Presentations and Thomas Hearndon (U Mass, Amherst) visit — sign up for evaluation conferences with seminar leader (if you are not doing seminar, you have been assigned to another faculty for your conference – probably your project faculty).
-* **1-3**  – Last Seminar of the quarter.  Seminar Portfolio’s (with your final 2-3 page paper – a synthesis of several readings and/or lectures OR a rewrite of one of your papers).  Please read (or reread) the sections from Weizenbaum’s Computer Power and Human Reason.  link to be posted asap
+ * Come prepared for Thomas Hearndon’s Talk: read both his (now) famous paper and the (Wikipedia) Summary of the Paper he found fault with. The wikipedia article cites a New York Times assessment by Paul Krugman: [The Excel Depression](http://www.nytimes.com/2013/04/19/opinion/krugman-the-excel-depression.html?_r=1&)
+  * Paper: [Does High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogo¨Herndon](http://www.peri.umass.edu/fileadmin/pdf/working_papers/working_papers_301-350/WP322.pdf), Ash, Pollin, U.Mass Political Economy Research Institute, Working Paper Series, April 15, 2013)
+  * Wikipedia of the paper proven wrong: [Growth in a Time of Debt](http://www.peri.umass.edu/fileadmin/pdf/working_papers/working_papers_301-350/WP322.pdf), R & R
+ * You might want to start by watching the [Real News video](http://www.youtube.com/watch?v=tKs7Ncdizfk) and Stephen Colbert Video [interview1](http://www.colbertnation.com/the-colbert-report-videos/425748/april-23-2013/austerity-s-spreadsheet-error) and [interview2](http://www.colbertnation.com/the-colbert-report-videos/425749/april-23-2013/austerity-s-spreadsheet-error---thomas-herndon)  with Herndon.  Please come prepared with questions you might have for him about his paper, his time at Evergreen, graduate school etc.
+
+* **1-3**  – Last Seminar of the quarter. Seminar Portfolio’s (with your final 2-3 page paper – a synthesis of several readings and/or lectures OR a rewrite of one of your papers).  Please read (or reread) the sections from Weizenbaum’s Computer Power and Human Reason.  link to be posted asap
 
 ##### Tuesday
 
@@ -27,8 +35,6 @@ Week by Week
 
 * **9:30-12**  – Project Final Report Due.  Project Presentations
 * **1-2:30**  – Project Presentations and Pot Luck at location to be announced.
-
--->
 
 ***
 
@@ -56,8 +62,6 @@ Project meetings and our lecture will take place at **The Capitol House Apartmen
 
 ##### Friday
 No ML Homework due. See ML page.
-
-***
 
 ## [Week 8][wk8]
 
