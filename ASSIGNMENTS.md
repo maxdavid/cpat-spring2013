@@ -17,7 +17,7 @@ Week by Week
   * Wikipedia of the paper proven wrong: [Growth in a Time of Debt](http://www.peri.umass.edu/fileadmin/pdf/working_papers/working_papers_301-350/WP322.pdf), R & R
  * You might want to start by watching the [Real News video](http://www.youtube.com/watch?v=tKs7Ncdizfk) and Stephen Colbert Video [interview1](http://www.colbertnation.com/the-colbert-report-videos/425748/april-23-2013/austerity-s-spreadsheet-error) and [interview2](http://www.colbertnation.com/the-colbert-report-videos/425749/april-23-2013/austerity-s-spreadsheet-error---thomas-herndon)  with Herndon.  Please come prepared with questions you might have for him about his paper, his time at Evergreen, graduate school etc.
 
-* **1-3**  – Last Seminar of the quarter. Seminar Portfolio’s (with your final 2-3 page paper – a synthesis of several readings and/or lectures OR a rewrite of one of your papers).  Please read (or reread) the sections from Weizenbaum’s Computer Power and Human Reason.  link to be posted asap
+* **1-3**  – Last Seminar of the quarter. Seminar Portfolio’s (with your final 2-3 page paper – a synthesis of several readings and/or lectures OR a rewrite of one of your papers).  Please read (or reread) the [sections from Weizenbaum’s Computer Power and Human Reason](http://blogs.evergreen.edu/cpat/files/2013/05/Computer-Power-and-Human-Reason.pdf).
 
 ##### Tuesday
 
@@ -35,6 +35,16 @@ Week by Week
 
 * **9:30-12**  – Project Final Report Due.  Project Presentations
 * **1-2:30**  – Project Presentations and Pot Luck at location to be announced.
+
+### About Portfolios
+* **Seminar Portfolios:**  Due Monday to Seminar.  Please collect into a folder or binder all your seminar papers for the quarter – the copy that your faculty has marked up.   Include the final paper – a rewrite of the paper of your choice or a new paper that synthesizes the seminar/lecture content of the quarter (e.g., more than one readings, possibly integrating lecture material into that paper).  Make sure your papers are not loose in the binder, and are clearly marked with your name.
+* **Statistics Portfolio:**  Due Tuesday 9:30 to Lab.
+ * If you worked with the same group for the quarter (or mostly, say 5 or more labs, with the same group) you may turn in ONE PORTFOLIO for the group.  Please prepare a cover page that lists the labs in the portfolio, and which students contributed to those labs.  make sure EVERYONE’S NAME is clearly Please turn in the labs that faculty has marked up and returned to you.
+ * If you jumped around, or worked mostly alone, please turn in ONE portfolio for yourself that has all the labs you completed.   If you cannot get the original (with faculty comments) to copy, then print a copy of what was turned in with your name on it.  Please prepare a cover page that lists the labs in the portfolio, and which students contributed to those labs.  If you can’t find a few of the labs, that’s OK, but be clear about what is and what is NOT in the portfolio on the cover page.
+* **ML Portfolio:**  Make a list of all of the labs and homework assignments that you submitted. After reading the comments that I have been making on the Moodle, if there are some that I have not commented on and you think that they represent your best work, then you should note that on your list. The ML portfolio is due on Thursday
+* Project Final Report  (due Thursday 9:30)
+Please see the [project-report write-up](http://blogs.evergreen.edu/cpat/project-report/).
+
 
 ***
 
