@@ -6,6 +6,7 @@ CPaT Schedule & Info
 ## Week-by-Week
 Also see [ASSIGNMENTS.md][assignments-md]
 #### [Current Week][cur-wk]
+* [Eval Week][evalwk]
 * [Week 10][wk10]
 * [Week 9][wk9]
 * [Week 8][wk8]
@@ -62,7 +63,8 @@ Also see [ASSIGNMENTS.md][assignments-md]
 [assignments-md]: https://github.com/pipecork/cpat-spring2013/blob/master/ASSIGNMENTS.md#week-by-week
 
 <!--- Week-by-Week -->
-  [cur-wk]: http://blogs.evergreen.edu/cpat/week-10-june-3/
+  [cur-wk]: http://blogs.evergreen.edu/cpat/eval-week-june-10/
+  [evalwk]: http://blogs.evergreen.edu/cpat/eval-week-june-10/
   [wk10]: http://blogs.evergreen.edu/cpat/week-10-june-3/
   [wk9]: http://blogs.evergreen.edu/cpat/week-9-may-27/
   [wk8]: http://blogs.evergreen.edu/cpat/week-8-may-20/

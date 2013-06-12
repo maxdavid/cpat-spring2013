@@ -4,6 +4,26 @@ Week by Week
 
 ***
 
+## [Eval Week][evalwk]
+If you haven’t already turned in your project report, please email it ASAP to the faculty who worked with you on your project.  A hardcopy was due Thursday during one of the two class sessions.
+
+Look here for a [DRAFT of the CPAT Program Description](http://blogs.evergreen.edu/cpat/cpat-program-description/). We suggest you read this before you submit your self evaluation to the registrar (if you do that), to make sure you have not forgotten something important, and so you don’t needlessly duplicate what is in the description.
+
+Also, by now you should be signed up for an Evaluation Conference:
+* [Judy’s Evaluation Conference Schedule](http://blogs.evergreen.edu/cpat/judys-eval-conf/)
+* [Aaron’s Evaluation Conference Schedule](http://blogs.evergreen.edu/cpat/aarons-eval-conference-schedule/)
+* [Richard’s Evaluation Conference Schedule](http://blogs.evergreen.edu/cpat/richards-conference-schedule/)
+
+##### Bring with you to the Conference:
+
+* Your Self Evaluation
+* Program Evaluation (you may alternatively turn this in to the Program Secretaries in Lab I)
+* Faculty Evaluation (for each faculty with whom you worked during the quarter – again, you may alternatively turn this in to the Program Secretaries in Lab I)
+
+Have a wonderful summer!
+
+***
+
 ## [Week 10][wk10]
 *Interested in SOS for next year?  See the Academic Fair Handout.
 * Project Presentation Schedule (with room assignments) is [posted](http://blogs.evergreen.edu/cpat/presentation-schedule/). Come 15 minutes early to the session where you present to make sure A/V is set up.  If you are presenting in a Seminar Room (Monday 1-3), you might need to bring your laptop!  If you have software you need installed, bring your laptop.
@@ -45,8 +65,6 @@ Week by Week
 * Project Final Report  (due Thursday 9:30)
 Please see the [project-report write-up](http://blogs.evergreen.edu/cpat/project-report/).
 
-
-***
 
 ## [Week 9][wk9]
 
@@ -348,4 +366,4 @@ The first week of the quarter will be slightly different from most weeks to make
 [wk8]: http://blogs.evergreen.edu/cpat/week-8-may-20/
 [wk9]: http://blogs.evergreen.edu/cpat/week-9-may-27/
 [wk10]: http://blogs.evergreen.edu/cpat/week-10-june-3/
-
+[evalwk]: http://blogs.evergreen.edu/cpat/eval-week-june-10/
